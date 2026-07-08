@@ -1,8 +1,9 @@
 {
   "latest": {
-    "version": "0.0.0",
-    "url": "",
-    "signature": "",
-    "notes": "No releases yet."
+    "version": "0.2.1",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.2.1/AvvioOne-0.2.1.zip",
+    "length": 8455319,
+    "signature": "oxTTK8pkWdca/WLNjitdjSsQqE0+HaWycbbjvxhNYAQT6rZmN/j6xac85+nop9924q+XmxxUN7NbPcI8RqHgDA==",
+    "notes": "Direct-distribution updater: updates now install one-click from a public, signature-verified feed \u2014 no tokens or accounts."
   }
 }
