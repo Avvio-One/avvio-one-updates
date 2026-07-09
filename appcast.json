@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.2.2",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.2.2/AvvioOne-0.2.2.zip",
-    "length": 8469660,
-    "signature": "psEuL+bLGwsyFm1hZr29cmi+pmIRT49RTmzP83cOJC1L2D/sKsk3mXtduAxXJLisLdQL5+ao6DUdN3+DQtXtAg==",
-    "notes": "Signed and notarized build \u2014 first web downloads now open with no Gatekeeper warning."
+    "version": "0.2.3",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.2.3/AvvioOne-0.2.3.zip",
+    "length": 8471849,
+    "signature": "W2RaGRQoNZVjbYWHUuXoUgE3KspDotVZRNb5xVDwikgHWFhHEhN5YfW7dqWlClwuZQpH+fBWMoMTDPAhPHq3CQ==",
+    "notes": "Fix: voice-track microphone access under hardened runtime (adds the audio-input entitlement)."
   }
 }
