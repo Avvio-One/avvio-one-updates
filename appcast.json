@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.2.3",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.2.3/AvvioOne-0.2.3.zip",
-    "length": 8471849,
-    "signature": "W2RaGRQoNZVjbYWHUuXoUgE3KspDotVZRNb5xVDwikgHWFhHEhN5YfW7dqWlClwuZQpH+fBWMoMTDPAhPHq3CQ==",
-    "notes": "Fix: voice-track microphone access under hardened runtime (adds the audio-input entitlement)."
+    "version": "0.2.4",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.2.4/AvvioOne-0.2.4.zip",
+    "length": 8472327,
+    "signature": "Tl4NOhPoP3bZGRLSV8pg+CrefU+LW69EmgLc8xP3TGWUmo+RdJHrJwBAtQDlbNGdGWRPAlDIFT7FBQ1z736BCw==",
+    "notes": "Fix: in-app update no longer hangs on 'Installing\u2026' when run from the Settings window (hard-exit hand-off to the swap helper)."
   }
 }
