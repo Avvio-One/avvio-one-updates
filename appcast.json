@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.2.4",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.2.4/AvvioOne-0.2.4.zip",
-    "length": 8472327,
-    "signature": "Tl4NOhPoP3bZGRLSV8pg+CrefU+LW69EmgLc8xP3TGWUmo+RdJHrJwBAtQDlbNGdGWRPAlDIFT7FBQ1z736BCw==",
-    "notes": "Fix: in-app update no longer hangs on 'Installing\u2026' when run from the Settings window (hard-exit hand-off to the swap helper)."
+    "version": "0.3.0",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.3.0/AvvioOne-0.3.0.zip",
+    "length": 8826014,
+    "signature": "vLqhNj/PHVHuHmqpoQ+UEfxEm3dXrJHF7r5VfU/HiuukqUvDc28PoUnJe5CfU8qTK0Z1iPXcrQn2pXa+pgvEAw==",
+    "notes": "External Audio milestone: point the station at a synced folder (Google Drive, Dropbox, OneDrive, iCloud) and its audio appears in every picker \u2014 drag into logs, pre-name slots that pull the file when they air, and set overlap timing; works over the LAN. Plus: Settings is its own window, the Log Editor offers Generate for empty days and only rebuilds upcoming hours/breaks on the current day, and a refreshed Voice Track editor."
   }
 }
