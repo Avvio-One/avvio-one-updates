@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.3.0",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.3.0/AvvioOne-0.3.0.zip",
-    "length": 8826014,
-    "signature": "vLqhNj/PHVHuHmqpoQ+UEfxEm3dXrJHF7r5VfU/HiuukqUvDc28PoUnJe5CfU8qTK0Z1iPXcrQn2pXa+pgvEAw==",
-    "notes": "External Audio milestone: point the station at a synced folder (Google Drive, Dropbox, OneDrive, iCloud) and its audio appears in every picker \u2014 drag into logs, pre-name slots that pull the file when they air, and set overlap timing; works over the LAN. Plus: Settings is its own window, the Log Editor offers Generate for empty days and only rebuilds upcoming hours/breaks on the current day, and a refreshed Voice Track editor."
+    "version": "0.4.0",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.0/AvvioOne-0.4.0.zip",
+    "length": 8947110,
+    "signature": "6Xa5rEaFmGYMdF5JhQI2wxuugw46egHj3cC7UUacU+t9M4ZAnmwINdY7mRnu/AS8ZNnfm98hVSjaHNGXtS/IAw==",
+    "notes": "FTP Audio: mirror a remote FTP/FTPS server into a local folder and use it everywhere \u2014 an 'FTP Audio' picker, drag into logs, pre-name slots that pull the file when it airs, and three-lane overlap timing; works over the LAN. Plus: External/FTP timing is now the full three-lane editor and can be edited live in the Now Playing log, and the false 'unavailable' label on external elements is fixed (shows 'awaiting file' only when truly missing)."
   }
 }
