@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.23",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.23/AvvioOne-0.4.23.zip",
-    "length": 12504269,
-    "signature": "yKiJLx92wQkicRP3IDbhoG0PDyVU+KBfEFCGmsO5gUPOHFT2H3fD16S7Fu96FgGWB1KQ53NObkFcsZaSYR2AAw==",
-    "notes": "Traffic: Break Fillers \u2014 mandatory fixed elements (e.g. Live365 triggers) that air in every stop set, reserving break time around advertiser spots."
+    "version": "0.4.24",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.24/AvvioOne-0.4.24.zip",
+    "length": 12569396,
+    "signature": "I/4dy/rrDGQ1Z9M1B/FjRVElulCkaeZw5YXjNIJPDfJjOcJvAJ85e4N6IiBHWTYyVkgjHfP11Ax2BMNDDzOTAg==",
+    "notes": "Traffic Phase 2: campaigns can name specific commercials and target a specific stop set. Log generator now reports underfilled hours immediately. Schedule page shows all clocks (wrapping palette)."
   }
 }
