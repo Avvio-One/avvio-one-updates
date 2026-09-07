@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.25",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.25/AvvioOne-0.4.25.zip",
-    "length": 12583945,
-    "signature": "FWYqrrTAxnwgPwRIKObMH3iNaaNE4BFRzw862EcVFv695Wsne5UcVdDpmFrqAaqBZ4rQdiyap6z71ZenJ8WoBQ==",
-    "notes": "CRITICAL: fixes an on-air crash at song transitions when elements have different audio formats (e.g. a mono/48kHz sweeper into a stereo song). Decks now use a fixed format and convert off-format audio. Also: underfilled-hour notice now shows reliably after generating."
+    "version": "0.4.26",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.26/AvvioOne-0.4.26.zip",
+    "length": 12674654,
+    "signature": "2XPrHkjk0HvYQELdnpxbAuDYjNPZ249tEgynga5kn1ycXhL29nsevLEjBLWVgPy9IAtNRvoyHKNff6u7jLrJDw==",
+    "notes": "Avvio One v0.4.26"
   }
 }
