@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.20",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.20/AvvioOne-0.4.20.zip",
-    "length": 12341603,
-    "signature": "vZF8weKruL7DeoJl79hOP+ZcyOh2D9ZD1EklNd0GI0l32vpfJDoPjEkOGWMUojV+g70JmvP2TTWGH+Vkkr60Ag==",
-    "notes": "Cue analysis now lists which tracks couldn't be analyzed (not just a count), so skipped songs are easy to find."
+    "version": "0.4.21",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.21/AvvioOne-0.4.21.zip",
+    "length": 12361581,
+    "signature": "VvPOiCKadaRnPcS11smbwIEMktM88IQexnPSbTqM1oQsAzssLABgigvZN1e2vyqVveHqiQW1vtfOYV7hZwRUAw==",
+    "notes": "Library: filter audio by subcategory (rotation), e.g. Music \u25b8 Gold, alongside the category filter."
   }
 }
