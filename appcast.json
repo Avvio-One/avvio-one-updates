@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.18",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.18/AvvioOne-0.4.18.zip",
-    "length": 12298441,
-    "signature": "6TSwCF60P6GFgHE15kanQvCqL9pfMNwVURZF7xubaiTdg339KdY6eThx2lZEE3XiEpL+JQcOiYNNlpIJKYhrCg==",
-    "notes": "Full-screen on-air view; Online Audio content type (play audio URLs); import straight into subcategories; Audio Categories editor auto-saves + remove; cleaner 'press Spacebar to continue' prompt."
+    "version": "0.4.19",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.19/AvvioOne-0.4.19.zip",
+    "length": 12320768,
+    "signature": "p95BhiyMbgJjl5YC3J/gkuidZ244FBsLRTgPGwy+aGtl1apmbK0BZk6YdD0Bo42DoJcb5rTjleml6c08qztMCQ==",
+    "notes": "No-intro songs now wait for the previous element's end cue instead of playing over its segue tail; import progress indicator with stable selection; import straight into subcategories."
   }
 }
