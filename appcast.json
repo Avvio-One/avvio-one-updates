@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.21",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.21/AvvioOne-0.4.21.zip",
-    "length": 12361581,
-    "signature": "VvPOiCKadaRnPcS11smbwIEMktM88IQexnPSbTqM1oQsAzssLABgigvZN1e2vyqVveHqiQW1vtfOYV7hZwRUAw==",
-    "notes": "Library: filter audio by subcategory (rotation), e.g. Music \u25b8 Gold, alongside the category filter."
+    "version": "0.4.22",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.22/AvvioOne-0.4.22.zip",
+    "length": 12369305,
+    "signature": "Yot1RKEZiu4ymiURPEUUGRG1SLeNwQ2RxKZyFOuLVLqjNPMFVwlrM0B2E/QrsQEz3OtBTuDDhYe9W8Ni0Lh7CA==",
+    "notes": "Clock Builder: right-click a clock to Duplicate it (full copy) and jump straight into editing the copy."
   }
 }
