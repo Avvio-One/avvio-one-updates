@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.19",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.19/AvvioOne-0.4.19.zip",
-    "length": 12320768,
-    "signature": "p95BhiyMbgJjl5YC3J/gkuidZ244FBsLRTgPGwy+aGtl1apmbK0BZk6YdD0Bo42DoJcb5rTjleml6c08qztMCQ==",
-    "notes": "No-intro songs now wait for the previous element's end cue instead of playing over its segue tail; import progress indicator with stable selection; import straight into subcategories."
+    "version": "0.4.20",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.20/AvvioOne-0.4.20.zip",
+    "length": 12341603,
+    "signature": "vZF8weKruL7DeoJl79hOP+ZcyOh2D9ZD1EklNd0GI0l32vpfJDoPjEkOGWMUojV+g70JmvP2TTWGH+Vkkr60Ag==",
+    "notes": "Cue analysis now lists which tracks couldn't be analyzed (not just a count), so skipped songs are easy to find."
   }
 }
