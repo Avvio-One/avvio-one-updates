@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.22",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.22/AvvioOne-0.4.22.zip",
-    "length": 12369305,
-    "signature": "Yot1RKEZiu4ymiURPEUUGRG1SLeNwQ2RxKZyFOuLVLqjNPMFVwlrM0B2E/QrsQEz3OtBTuDDhYe9W8Ni0Lh7CA==",
-    "notes": "Clock Builder: right-click a clock to Duplicate it (full copy) and jump straight into editing the copy."
+    "version": "0.4.23",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.23/AvvioOne-0.4.23.zip",
+    "length": 12504269,
+    "signature": "yKiJLx92wQkicRP3IDbhoG0PDyVU+KBfEFCGmsO5gUPOHFT2H3fD16S7Fu96FgGWB1KQ53NObkFcsZaSYR2AAw==",
+    "notes": "Traffic: Break Fillers \u2014 mandatory fixed elements (e.g. Live365 triggers) that air in every stop set, reserving break time around advertiser spots."
   }
 }
