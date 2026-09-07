@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.39",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.39/AvvioOne-0.4.39.zip",
-    "length": 12846167,
-    "signature": "8QhXBJ1ietrBH0RoptNqcGGg0l6wKYaNHzOzEYoTFbzuWnXdt6Ym0e4bp7McAQkoxD327655U2w/gGEwtzeiAA==",
-    "notes": "Avvio One v0.4.39"
+    "version": "0.4.40",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.40/AvvioOne-0.4.40.zip",
+    "length": 12846926,
+    "signature": "jo/Pz8yHt76TqYlQpL47yr+NXuldLfj/et1tVxmu6ISKovDobtGOaZvYWN/anVdQ9YY/eIBCOIZmyYYc2gi+Dg==",
+    "notes": "Avvio One v0.4.40"
   }
 }
