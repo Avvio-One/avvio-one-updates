@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.0",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.0/AvvioOne-0.4.0.zip",
-    "length": 8947110,
-    "signature": "6Xa5rEaFmGYMdF5JhQI2wxuugw46egHj3cC7UUacU+t9M4ZAnmwINdY7mRnu/AS8ZNnfm98hVSjaHNGXtS/IAw==",
-    "notes": "FTP Audio: mirror a remote FTP/FTPS server into a local folder and use it everywhere \u2014 an 'FTP Audio' picker, drag into logs, pre-name slots that pull the file when it airs, and three-lane overlap timing; works over the LAN. Plus: External/FTP timing is now the full three-lane editor and can be edited live in the Now Playing log, and the false 'unavailable' label on external elements is fixed (shows 'awaiting file' only when truly missing)."
+    "version": "0.4.18",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.18/AvvioOne-0.4.18.zip",
+    "length": 12298441,
+    "signature": "6TSwCF60P6GFgHE15kanQvCqL9pfMNwVURZF7xubaiTdg339KdY6eThx2lZEE3XiEpL+JQcOiYNNlpIJKYhrCg==",
+    "notes": "Full-screen on-air view; Online Audio content type (play audio URLs); import straight into subcategories; Audio Categories editor auto-saves + remove; cleaner 'press Spacebar to continue' prompt."
   }
 }
