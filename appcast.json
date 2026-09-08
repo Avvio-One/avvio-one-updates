@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.46",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.46/AvvioOne-0.4.46.zip",
-    "length": 13054446,
-    "signature": "piT3uWoqhZrCVo1mIqIpGpOAv3euiArW8Eec8kfUVMlspsAQNRU6+5Y/LGDiJD6AZqBPBfYlP2NYfCPkTxZoCw==",
-    "notes": "New: Structured Audio segments. Build a reusable template once \u2014 an Open bed/jingle that ducks, a Voiceover read over it (an Online/External/FTP file by name like events-calendar), and a Close stinger \u2014 then drop it into a clock as a Structured Audio slot. It airs as ONE grouped element in the log via the existing bed talk-over engine, reserves a nominal length you set for hour timing, and skips the whole segment if the voiceover file is missing at air time."
+    "version": "0.4.47",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.47/AvvioOne-0.4.47.zip",
+    "length": 13058537,
+    "signature": "RNkczDvLhZqSOp+iXCY20KTZm3qAW0KLoD4dqakHZggP2anzz9kHeE5FKpR9haZHU5wUOOAqfB2sTE6rulHhAA==",
+    "notes": "Fix: the Default Clock safety net / auto-fill can no longer air a wall of commercials. When the log runs dry and the clock's music can't fill (dry rotation), the safety net now falls back to all airable music so the station keeps PLAYING music; it never injects stop sets on their own. Manual 'fill from clock' is unchanged. This is what produced the overnight wall of back-to-back Live365 breaks after a playback stall."
   }
 }
