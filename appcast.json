@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.45",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.45/AvvioOne-0.4.45.zip",
-    "length": 12851402,
-    "signature": "K2sRLaYzo10nkqv7nDvM7/mQyD8SC3v2S6A97iMqEsTaOPXehygFEjKmn8F3RyF8bbPVdp1ORLMVLoP5Zl8nDQ==",
-    "notes": "Log generation now times each hour WITH the commercials counted: a stop set reserves its scheduled break length toward the 60 minutes, so music fills to (60 - breaks) instead of packing the whole hour and letting the spots push it over the top. Hours now generate near-perfect (drop overage / fill shortage at generation), so the live screen needs far fewer last-minute changes. Clock editor Est Time now includes break time too."
+    "version": "0.4.46",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.46/AvvioOne-0.4.46.zip",
+    "length": 13054446,
+    "signature": "piT3uWoqhZrCVo1mIqIpGpOAv3euiArW8Eec8kfUVMlspsAQNRU6+5Y/LGDiJD6AZqBPBfYlP2NYfCPkTxZoCw==",
+    "notes": "New: Structured Audio segments. Build a reusable template once \u2014 an Open bed/jingle that ducks, a Voiceover read over it (an Online/External/FTP file by name like events-calendar), and a Close stinger \u2014 then drop it into a clock as a Structured Audio slot. It airs as ONE grouped element in the log via the existing bed talk-over engine, reserves a nominal length you set for hour timing, and skips the whole segment if the voiceover file is missing at air time."
   }
 }
