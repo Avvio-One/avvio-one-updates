@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.42",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.42/AvvioOne-0.4.42.zip",
-    "length": 12850641,
-    "signature": "X3t5k4HBQgD8qWISkEoLdFBgXSrme2qGrpZSMvBZ279w9uly2BIqaoHh+8NRJ9tixSlHLk/hawpMDPJiIGe8CA==",
-    "notes": "Fix: restart no longer drops ~20 min of a legitimate hour. The live overfill trimmer now requires a real on-air anchor, refuses to trim when the projection is bad (the restart case), and never removes more than a few rows at one top-of-hour boundary."
+    "version": "0.4.43",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.43/AvvioOne-0.4.43.zip",
+    "length": 12849166,
+    "signature": "PeU+p+pVllNhoOb0UDkdZLgnwNkUf0b6LaJPoRlUYiIWBxW+ptlwK/yTvItUzkKH+yjfK/12sfa8LRVf32jLBw==",
+    "notes": "Fix: restarting the app mid-element (e.g. during the last commercial of a stop set) now resumes AT that interrupted element instead of skipping to the next song and leaving a lone commercial stranded out of order. Resume logic is now a pure, unit-tested decision that always prefers the interrupted on-air row."
   }
 }
