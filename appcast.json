@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.43",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.43/AvvioOne-0.4.43.zip",
-    "length": 12849166,
-    "signature": "PeU+p+pVllNhoOb0UDkdZLgnwNkUf0b6LaJPoRlUYiIWBxW+ptlwK/yTvItUzkKH+yjfK/12sfa8LRVf32jLBw==",
-    "notes": "Fix: restarting the app mid-element (e.g. during the last commercial of a stop set) now resumes AT that interrupted element instead of skipping to the next song and leaving a lone commercial stranded out of order. Resume logic is now a pure, unit-tested decision that always prefers the interrupted on-air row."
+    "version": "0.4.44",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.44/AvvioOne-0.4.44.zip",
+    "length": 12850956,
+    "signature": "KqeHCqc2orQhY9WWgEQE37340LF3fDCq0lR2hPi5i/vhYGheL2UAPJWIeipekpDKh3GEEtXOWSkFdpnTizn+BA==",
+    "notes": "Live overfill trimming now runs ONLY near the top of the hour: it drops overfill elements just when they're certain to run past the coming top, instead of checking and rewriting the log every 30s all hour. It is no longer triggered by a restart, edit, or regenerate. Aired rows still drop off and end-of-hour auto-fill still tops up a short hour."
   }
 }
