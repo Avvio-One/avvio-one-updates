@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.54",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.54/AvvioOne-0.4.54.zip",
-    "length": 13321191,
-    "signature": "HLQo7AsAFjX8F1heM3KEF3Fe56A7SFz2RbcjQ4VvQf7qxIt182wwhF6rQnzxOkyIOy8TeigeO/zM4eiR4zogDw==",
-    "notes": "Fix: two top-of-hour carts near the boundary. When log generation topped up a short hour, its auto-fill cycled ALL clock categories \u2014 so it could re-insert a top-of-hour imaging cart (and extra sweepers) as filler. Auto-fill now tops up with MUSIC only; imaging/sweepers/jingles/promos/legal IDs stay positional and air once from their clock slot. Regenerate affected days to clear existing duplicates."
+    "version": "0.4.55",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.55/AvvioOne-0.4.55.zip",
+    "length": 13321193,
+    "signature": "8FcQzFQM/FG+ZhGXWGHKOpbHX4Kv39C/CCz9t1YAATVTm6bE5totf1RJrapBuZG8oLohdrdGVel3Cps+jXk8Bg==",
+    "notes": "Fix: false 'Playback stalled' at the top of the hour (and the burst of back-to-back TOH sweepers that followed). When a song ends a few seconds before the top, the soft hand-off waits for the top-of-hour cart, leaving a brief planned idle. That was being mislabeled as an unexpected stall when leftover imaging sat before the cart \u2014 so it 'recovered' by playing the whole pile. The player now holds for an imminent top-of-hour element (scanning past any leftovers) instead of stalling; a genuine mid-hour stall still recovers."
   }
 }
