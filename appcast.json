@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.51",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.51/AvvioOne-0.4.51.zip",
-    "length": 13291132,
-    "signature": "IC5Sv46WUw0tu11z+S+rnLRHg3XpQ16J5fBsfT7N2zAcslt1SLgxjfh6f0ckLPgbZxbszX2UFV4swMtdkVpsAA==",
-    "notes": "New report: Song Airplay (Reports > Song Airplay). Search for one song and see every past airing (as-run history) and every place it's scheduled ahead (pending rows in today's and the coming days' logs), plus its current category. Handy for finding a song still sitting in an already-generated log after a category/rotation change."
+    "version": "0.4.52",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.52/AvvioOne-0.4.52.zip",
+    "length": 13314229,
+    "signature": "4ab8okyFUmu/FtwdlprcsVZaTNVxFL82jBAUrlzbtZXr6GIpzCb9250rbiPudIQPQV5La5vA7y4fzJwo2YIcCQ==",
+    "notes": "Song Airplay report: added 'Remove from Upcoming Logs' \u2014 one click pulls every upcoming (pending) occurrence of the selected song from today's and the coming days' logs, with a confirmation. It never touches what already aired or the item currently on air; regenerate a day to rebuild."
   }
 }
