@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.55",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.55/AvvioOne-0.4.55.zip",
-    "length": 13321193,
-    "signature": "8FcQzFQM/FG+ZhGXWGHKOpbHX4Kv39C/CCz9t1YAATVTm6bE5totf1RJrapBuZG8oLohdrdGVel3Cps+jXk8Bg==",
-    "notes": "Fix: false 'Playback stalled' at the top of the hour (and the burst of back-to-back TOH sweepers that followed). When a song ends a few seconds before the top, the soft hand-off waits for the top-of-hour cart, leaving a brief planned idle. That was being mislabeled as an unexpected stall when leftover imaging sat before the cart \u2014 so it 'recovered' by playing the whole pile. The player now holds for an imminent top-of-hour element (scanning past any leftovers) instead of stalling; a genuine mid-hour stall still recovers."
+    "version": "0.4.56",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.56/AvvioOne-0.4.56.zip",
+    "length": 13321383,
+    "signature": "FGKvoY+xQFDO6nySGpg+WVzcs/dOMmz/AOSljUtT4LUaosHgmc6bg+T6Z41wWx+Ty+xEGG9Pks6oTvho4RHaBA==",
+    "notes": "Fluid top of hour. If an hour's content lands within a minute of the top, the scheduler no longer crams a filler song into the final seconds and the player no longer holds for the exact HH:00 \u2014 the hour floats and the next hour starts a touch early. Applies to both log generation and the live now-playing log. Gaps larger than a minute still fill with music; hours more than a minute short still top up."
   }
 }
