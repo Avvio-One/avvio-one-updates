@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.57",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.57/AvvioOne-0.4.57.zip",
-    "length": 13331529,
-    "signature": "af7C9C5e0vjhRQDTzsAYLObZX8r92Jm06v9TLNBE93lUY0bs1EiXntQBUTFOI7++/mtB9h4RT6CgVo1UUZt4Bw==",
-    "notes": "Log generation underfill fixes. (1) Hours landing within a minute of the top no longer warn as underfilled \u2014 that's the fluid top of hour, by design. (2) When an hour's own clock rotation runs dry, the scheduler now tops it up from the Auto-Fill clock (Settings > Scheduling), music only, falling back to all airable music \u2014 so hours fill instead of just warning. An hour is flagged underfilled only when there's genuinely no music left to fill it."
+    "version": "0.4.58",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.58/AvvioOne-0.4.58.zip",
+    "length": 13332047,
+    "signature": "1QyxJzmLdTSTEOn7iw1wolj0taXAO6LS4Wrv55HcRctDZxnYjx6WcJdSU8NVY9oJQDMXqifF0RxrImlXiYiSCA==",
+    "notes": "Fix: the live auto-fill/safety-net could auto-insert imaging/sweepers 'from a clock' \u2014 it stripped stop sets but not imaging carts (which are audio elements). Live refills now insert MUSIC ONLY (the clock is reduced to its music slots), with the all-music fallback still keeping the station playing when a rotation is dry. Manual 'generate from clock' is unchanged."
   }
 }
