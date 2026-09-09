@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.48",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.48/AvvioOne-0.4.48.zip",
-    "length": 13096064,
-    "signature": "0RD3DuBTovP4vNl2kSQznfo2FU3D5QadyoqxPmRPdQm7JjbCumkR9F3xJI+05mXJRXxEfHZtaHXeyd0lPRrkBg==",
-    "notes": "On Air page: added 'Segments' to the Audio panel \u2014 drag a Structured Audio segment (or double-click / Add to Log) to drop it into the live log as one grouped element. Also fixed drag-and-drop of External / FTP / Online audio onto the live log (the drop now recognizes those elements instead of silently doing nothing)."
+    "version": "0.4.49",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.49/AvvioOne-0.4.49.zip",
+    "length": 13095767,
+    "signature": "bVkmDPH2YlmBLFt1B1ugNiMvZYg8NZ1oDtXzxLluSH6NFEmxyVIgeh00dlwCb+O0khS/34HVZ0Sy1F5v6iDSBA==",
+    "notes": "Fix: overnight stop-set pileup. When the log ran dry (e.g. after the midnight day-rollover stall) the safety net/auto-fill refilled from the Default Clock but also re-added its stop sets on every pass; the live trim strips the refill's music but never stop sets, so breaks accumulated into clusters of back-to-back commercial stop sets in the upcoming log. Automatic refills now add MUSIC ONLY \u2014 commercials come only from the real generated day. Manual 'fill from clock' is unchanged."
   }
 }
