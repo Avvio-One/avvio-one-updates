@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.50",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.50/AvvioOne-0.4.50.zip",
-    "length": 13148397,
-    "signature": "3vOJnCSvOiqQIsKm1uhmUJI7mwwiXmZ0iiVvtaDepLmqTKH/huMNHtq1lolOzuhIzohHiez0Z0KnJ+w9k17nBw==",
-    "notes": "Overnight handoff. The on-air log now rolls into the next day automatically at midnight (it was pinned to the date the app launched \u2014 the root cause of the overnight stalls). If tomorrow still has no log past a configurable hour (Settings > Scheduling > Next-Day Log, default 9 PM), the app auto-generates it from the schedule (full day + commercials). An orange 'No log tomorrow' notice appears above Settings whenever tomorrow's log is missing, so you can build it yourself first. The rollover switches only at an element boundary, never mid-song."
+    "version": "0.4.51",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.51/AvvioOne-0.4.51.zip",
+    "length": 13291132,
+    "signature": "IC5Sv46WUw0tu11z+S+rnLRHg3XpQ16J5fBsfT7N2zAcslt1SLgxjfh6f0ckLPgbZxbszX2UFV4swMtdkVpsAA==",
+    "notes": "New report: Song Airplay (Reports > Song Airplay). Search for one song and see every past airing (as-run history) and every place it's scheduled ahead (pending rows in today's and the coming days' logs), plus its current category. Handy for finding a song still sitting in an already-generated log after a category/rotation change."
   }
 }
