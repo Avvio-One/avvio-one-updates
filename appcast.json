@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.53",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.53/AvvioOne-0.4.53.zip",
-    "length": 13321339,
-    "signature": "a8m4V1wLuC1WiIzL6zwsNnmnjbPu2AbPEnxK+pvPCMg9nWfZ0DD8mXDdE18+Cgm8szUXYnTkbP/nyzO2N54nAQ==",
-    "notes": "Scheduler: cross-day hour churn (vertical rotation). Log generation now avoids parking a music track in the same clock hour day after day \u2014 it looks at where each song aired in the last few days and where it's already scheduled in the coming days (a 3-day window each side) and steers it to a different hour. Sweepers/jingles/IDs stay positional. The rule relaxes if a small rotation leaves no alternative, so slots always fill."
+    "version": "0.4.54",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.54/AvvioOne-0.4.54.zip",
+    "length": 13321191,
+    "signature": "HLQo7AsAFjX8F1heM3KEF3Fe56A7SFz2RbcjQ4VvQf7qxIt182wwhF6rQnzxOkyIOy8TeigeO/zM4eiR4zogDw==",
+    "notes": "Fix: two top-of-hour carts near the boundary. When log generation topped up a short hour, its auto-fill cycled ALL clock categories \u2014 so it could re-insert a top-of-hour imaging cart (and extra sweepers) as filler. Auto-fill now tops up with MUSIC only; imaging/sweepers/jingles/promos/legal IDs stay positional and air once from their clock slot. Regenerate affected days to clear existing duplicates."
   }
 }
