@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.49",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.49/AvvioOne-0.4.49.zip",
-    "length": 13095767,
-    "signature": "bVkmDPH2YlmBLFt1B1ugNiMvZYg8NZ1oDtXzxLluSH6NFEmxyVIgeh00dlwCb+O0khS/34HVZ0Sy1F5v6iDSBA==",
-    "notes": "Fix: overnight stop-set pileup. When the log ran dry (e.g. after the midnight day-rollover stall) the safety net/auto-fill refilled from the Default Clock but also re-added its stop sets on every pass; the live trim strips the refill's music but never stop sets, so breaks accumulated into clusters of back-to-back commercial stop sets in the upcoming log. Automatic refills now add MUSIC ONLY \u2014 commercials come only from the real generated day. Manual 'fill from clock' is unchanged."
+    "version": "0.4.50",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.50/AvvioOne-0.4.50.zip",
+    "length": 13148397,
+    "signature": "3vOJnCSvOiqQIsKm1uhmUJI7mwwiXmZ0iiVvtaDepLmqTKH/huMNHtq1lolOzuhIzohHiez0Z0KnJ+w9k17nBw==",
+    "notes": "Overnight handoff. The on-air log now rolls into the next day automatically at midnight (it was pinned to the date the app launched \u2014 the root cause of the overnight stalls). If tomorrow still has no log past a configurable hour (Settings > Scheduling > Next-Day Log, default 9 PM), the app auto-generates it from the schedule (full day + commercials). An orange 'No log tomorrow' notice appears above Settings whenever tomorrow's log is missing, so you can build it yourself first. The rollover switches only at an element boundary, never mid-song."
   }
 }
