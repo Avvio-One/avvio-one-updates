@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.58",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.58/AvvioOne-0.4.58.zip",
-    "length": 13332047,
-    "signature": "1QyxJzmLdTSTEOn7iw1wolj0taXAO6LS4Wrv55HcRctDZxnYjx6WcJdSU8NVY9oJQDMXqifF0RxrImlXiYiSCA==",
-    "notes": "Fix: the live auto-fill/safety-net could auto-insert imaging/sweepers 'from a clock' \u2014 it stripped stop sets but not imaging carts (which are audio elements). Live refills now insert MUSIC ONLY (the clock is reduced to its music slots), with the all-music fallback still keeping the station playing when a rotation is dry. Manual 'generate from clock' is unchanged."
+    "version": "0.4.59",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.59/AvvioOne-0.4.59.zip",
+    "length": 13331674,
+    "signature": "PSLP/chK6PMnKSe4DVkt3Entj5WbPHgUo1ysKuMTFz6UOuQZYtwRH+QG1KLKDX40eYWDin55B8HSNLZfB5PXBg==",
+    "notes": "Fix: log generator no longer flags artist-separation conflicts for sweepers/imaging/jingles/legal IDs/promos. Those production carts are tagged with the station name as the artist, so they were constantly colliding on 'same artist.' Artist separation now applies to Music only; song title separation and time-of-day churn still apply to everything."
   }
 }
