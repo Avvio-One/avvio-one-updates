@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.4.59",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.59/AvvioOne-0.4.59.zip",
-    "length": 13331674,
-    "signature": "PSLP/chK6PMnKSe4DVkt3Entj5WbPHgUo1ysKuMTFz6UOuQZYtwRH+QG1KLKDX40eYWDin55B8HSNLZfB5PXBg==",
-    "notes": "Fix: log generator no longer flags artist-separation conflicts for sweepers/imaging/jingles/legal IDs/promos. Those production carts are tagged with the station name as the artist, so they were constantly colliding on 'same artist.' Artist separation now applies to Music only; song title separation and time-of-day churn still apply to everything."
+    "version": "0.4.60",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.4.60/AvvioOne-0.4.60.zip",
+    "length": 13332090,
+    "signature": "6iSD7+t8I+VMSd1udBbL8aRfc40TlW4Kxacej8XdiH/Jk8HGVxy2sihKyFW3Ph9/A9TVCaqUWe0tX+KDCUNTBQ==",
+    "notes": "Top-of-hour IDs, sweepers, and imaging are never trimmed as overfill \u2014 only excess music is shaved to land the top of hour. Fixes missing TOH IDs (e.g. 12:00) and TOH carts getting 'kicked out' at generation or live."
   }
 }
