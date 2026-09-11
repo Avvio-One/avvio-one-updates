@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.3",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.3/AvvioOne-0.5.3.zip",
-    "length": 13751883,
-    "signature": "v3fkPmNaVcMTMgMlN1X/k8bwbjNizd8owMtoeoN7Xuy+m3bqGZrmMFaDi60UqE7HuOKyRU6P+q+elpIzhYgGAg==",
-    "notes": "Cloud Sync now also transfers the bed Talk Over cue (the duck point for Structured Audio), alongside the other cue points."
+    "version": "0.5.4",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.4/AvvioOne-0.5.4.zip",
+    "length": 13754977,
+    "signature": "kDoGLnkz5zBc4J+k5GfTonuWRgclu2vFMly/veo7Eduz/GV2Bdw33SRHBdQDhA3EUQAaqpy5iqJRaN6HotQrAQ==",
+    "notes": "Cloud Sync now verifies each audio file transferred in full \u2014 if a sync is interrupted, re-running re-uploads only the incomplete files (not everything) and the cloud never keeps a partial file."
   }
 }
