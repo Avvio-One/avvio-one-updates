@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.8",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.8/AvvioOne-0.5.8.zip",
-    "length": 13771369,
-    "signature": "3c79UmBqY0ztDoN6rbaoA0wkqXEWf0ZNz+mRXxDoIU9PfdWoRbOzhfeQ2xTnLjnlU+WwKMl0OF8LVOdPbb01DQ==",
-    "notes": "Diagnostics for the rare on-air 'wall of ads' (clustered commercial breaks): the live overfill trimmer now records which songs it removes, and a passive detector logs a detailed snapshot the moment 3+ commercial breaks are queued back-to-back. No change to scheduling behavior."
+    "version": "0.5.9",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.9/AvvioOne-0.5.9.zip",
+    "length": 13771373,
+    "signature": "oh9RsfNebaf8JW4dKuLlaGMVuGgIp1BwjvY6avSfT2HcOMU6/mMAm3S73z7iV87MhCPBNw2nRlRiFaFtmHuXAQ==",
+    "notes": "Clock builder: 'Structured Audio' is now a first-class element in the ADD ELEMENT palette \u2014 click to append or drag it into the hour to place a segment, same as Stop Set / Voice Track. (Segments were previously only reachable by adding another element and switching its type.)"
   }
 }
