@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.2",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.2/AvvioOne-0.5.2.zip",
-    "length": 13753121,
-    "signature": "TOo34ZGsuzbwU8sl0pbl6zbtmtrrv32XXJhkHrk3V4RAB92AGrze7I0h4YuCCtxxaAdbAiPq9CAQuPIPN1BFBA==",
-    "notes": "Preview Structured Audio segments as you build them \u2014 hear the whole segment as it airs (bed ducks under the voiceover, then the close stinger), or audition each part on its own. Preview is off-air and never touches the stream."
+    "version": "0.5.3",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.3/AvvioOne-0.5.3.zip",
+    "length": 13751883,
+    "signature": "v3fkPmNaVcMTMgMlN1X/k8bwbjNizd8owMtoeoN7Xuy+m3bqGZrmMFaDi60UqE7HuOKyRU6P+q+elpIzhYgGAg==",
+    "notes": "Cloud Sync now also transfers the bed Talk Over cue (the duck point for Structured Audio), alongside the other cue points."
   }
 }
