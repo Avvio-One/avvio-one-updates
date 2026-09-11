@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.1",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.1/AvvioOne-0.5.1.zip",
-    "length": 13690042,
-    "signature": "s9ihWhxPeNgPSczswNSWpW3myyYNfLz2AHZt5XuCu4P4zzzFByetg0Bw4quFNe4mkT3klFxUDWqByoiNF33oAQ==",
-    "notes": "Top-of-hour IDs, sweepers and legal IDs now ALWAYS air \u2014 programmed production elements are no longer dropped by rotation/separation, and you get a Log Report warning if a cart is missing. Song separation is now music-only, so repeated-sweeper warnings are gone."
+    "version": "0.5.2",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.2/AvvioOne-0.5.2.zip",
+    "length": 13753121,
+    "signature": "TOo34ZGsuzbwU8sl0pbl6zbtmtrrv32XXJhkHrk3V4RAB92AGrze7I0h4YuCCtxxaAdbAiPq9CAQuPIPN1BFBA==",
+    "notes": "Preview Structured Audio segments as you build them \u2014 hear the whole segment as it airs (bed ducks under the voiceover, then the close stinger), or audition each part on its own. Preview is off-air and never touches the stream."
   }
 }
