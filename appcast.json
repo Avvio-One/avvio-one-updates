@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.6",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.6/AvvioOne-0.5.6.zip",
-    "length": 13762219,
-    "signature": "OcuSmdxn6QDKxp2BLUwF4Jk+PEnqQdysIRY7pGiz94wfKfUhnqOYuVeFeWxHqAqmJ8KIwUg0qJtXi05L4M6mCg==",
-    "notes": "Cloud Sync now shows WHY rows were skipped (the exact reason under each item in the push report), so a rejected sync is diagnosable."
+    "version": "0.5.7",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.7/AvvioOne-0.5.7.zip",
+    "length": 13760977,
+    "signature": "pbxM7h2kmr2C/36IT/n1PLKObY96RFKlmQbG2hctu7K1kXMOo8IgZCHgbiN0TD3pVGSuCgjsWA7oVefFrcRGAQ==",
+    "notes": "Previews (Structured Audio segments and the FTP/External/Online settings auditions) now play through your monitor output, never the program/air speaker."
   }
 }
