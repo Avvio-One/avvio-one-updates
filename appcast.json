@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.0",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.0/AvvioOne-0.5.0.zip",
-    "length": 13684419,
-    "signature": "m5LUZavzdwXU7roNRGXBa3N3/vdQTBQM5EcXdphVQskMhbgWf7AhHrp5NjsMZlq+8lQgu8u6I+UibtfT2PRfBg==",
-    "notes": "Cloud Sync: mirror this station to Avvio Cloud from Settings \u25b8 Cloud Sync \u2014 full or selective (library+audio, clocks, traffic, logs, and more), idempotent and resumable. Plus accumulated on-air/scheduler fixes."
+    "version": "0.5.1",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.1/AvvioOne-0.5.1.zip",
+    "length": 13690042,
+    "signature": "s9ihWhxPeNgPSczswNSWpW3myyYNfLz2AHZt5XuCu4P4zzzFByetg0Bw4quFNe4mkT3klFxUDWqByoiNF33oAQ==",
+    "notes": "Top-of-hour IDs, sweepers and legal IDs now ALWAYS air \u2014 programmed production elements are no longer dropped by rotation/separation, and you get a Log Report warning if a cart is missing. Song separation is now music-only, so repeated-sweeper warnings are gone."
   }
 }
