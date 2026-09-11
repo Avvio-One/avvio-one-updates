@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.7",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.7/AvvioOne-0.5.7.zip",
-    "length": 13760977,
-    "signature": "pbxM7h2kmr2C/36IT/n1PLKObY96RFKlmQbG2hctu7K1kXMOo8IgZCHgbiN0TD3pVGSuCgjsWA7oVefFrcRGAQ==",
-    "notes": "Previews (Structured Audio segments and the FTP/External/Online settings auditions) now play through your monitor output, never the program/air speaker."
+    "version": "0.5.8",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.8/AvvioOne-0.5.8.zip",
+    "length": 13771369,
+    "signature": "3c79UmBqY0ztDoN6rbaoA0wkqXEWf0ZNz+mRXxDoIU9PfdWoRbOzhfeQ2xTnLjnlU+WwKMl0OF8LVOdPbb01DQ==",
+    "notes": "Diagnostics for the rare on-air 'wall of ads' (clustered commercial breaks): the live overfill trimmer now records which songs it removes, and a passive detector logs a detailed snapshot the moment 3+ commercial breaks are queued back-to-back. No change to scheduling behavior."
   }
 }
