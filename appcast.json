@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.9",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.9/AvvioOne-0.5.9.zip",
-    "length": 13771373,
-    "signature": "oh9RsfNebaf8JW4dKuLlaGMVuGgIp1BwjvY6avSfT2HcOMU6/mMAm3S73z7iV87MhCPBNw2nRlRiFaFtmHuXAQ==",
-    "notes": "Clock builder: 'Structured Audio' is now a first-class element in the ADD ELEMENT palette \u2014 click to append or drag it into the hour to place a segment, same as Stop Set / Voice Track. (Segments were previously only reachable by adding another element and switching its type.)"
+    "version": "0.5.10",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.10/AvvioOne-0.5.10.zip",
+    "length": 13782231,
+    "signature": "3vk+XKLepvE4euBGZ3iXHvLQKifpraQqHfha8H2lOo0lfytBGQNI6z1qneej8DWBCT4yDDroyJsNgNgMRECeDw==",
+    "notes": "On-air Audio panel: browse and drag by Rotation, not just by audio type. The filter menu now has a 'Rotations' submenu (grouped by category); pick a rotation to narrow the draggable list to just that rotation's tracks. Search still applies within it."
   }
 }
