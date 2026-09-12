@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.10",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.10/AvvioOne-0.5.10.zip",
-    "length": 13782231,
-    "signature": "3vk+XKLepvE4euBGZ3iXHvLQKifpraQqHfha8H2lOo0lfytBGQNI6z1qneej8DWBCT4yDDroyJsNgNgMRECeDw==",
-    "notes": "On-air Audio panel: browse and drag by Rotation, not just by audio type. The filter menu now has a 'Rotations' submenu (grouped by category); pick a rotation to narrow the draggable list to just that rotation's tracks. Search still applies within it."
+    "version": "0.5.11",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.11/AvvioOne-0.5.11.zip",
+    "length": 13783362,
+    "signature": "nRFZipnyOtaeI7BbK36O2oOjvhzFRDzxrXM6Hu+2I7OT6EnHemdYv23c/8iudb/DDl4dQlVHkkwQ+zZjCQQZBw==",
+    "notes": "Overnight day handoff fix: when the calendar day rolls over while a song is on air, the player now stops extending the old day immediately \u2014 the song playing at midnight becomes the last of the old day, and the new day's real programming (legal ID + imaging) comes up right after it, instead of playing out ~30 min of overnight music fill first. The handoff is bounded to one element and the top of hour recovers within the first hour instead of being 30 minutes late."
   }
 }
