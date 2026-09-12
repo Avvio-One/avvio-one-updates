@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.11",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.11/AvvioOne-0.5.11.zip",
-    "length": 13783362,
-    "signature": "nRFZipnyOtaeI7BbK36O2oOjvhzFRDzxrXM6Hu+2I7OT6EnHemdYv23c/8iudb/DDl4dQlVHkkwQ+zZjCQQZBw==",
-    "notes": "Overnight day handoff fix: when the calendar day rolls over while a song is on air, the player now stops extending the old day immediately \u2014 the song playing at midnight becomes the last of the old day, and the new day's real programming (legal ID + imaging) comes up right after it, instead of playing out ~30 min of overnight music fill first. The handoff is bounded to one element and the top of hour recovers within the first hour instead of being 30 minutes late."
+    "version": "0.5.12",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.12/AvvioOne-0.5.12.zip",
+    "length": 13799418,
+    "signature": "uQY+b9HHZqLD8Xnr8BPxR7UgByYLEoOQiFpFRm/NshGPZO+PtJ2mQo+xSBATga4kphxe50fGiGDUljD5FodgBA==",
+    "notes": "Continuous overnight log: the on-air player now keeps a rolling window of the current day PLUS the next day, so programming flows across midnight with no handoff. The next day's real hours (legal ID, imaging, music) are simply the tail of the queue and play gaplessly the moment the current day ends \u2014 no music-only filler, no idle, no 30-minute catch-up. The primary day slides forward on its own once the current day has fully aired."
   }
 }
