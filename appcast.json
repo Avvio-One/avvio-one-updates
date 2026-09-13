@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.14",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.14/AvvioOne-0.5.14.zip",
-    "length": 13807957,
-    "signature": "6TLviV7jaX9IV4wH1WE+NqF6J6OqspwwT762rnD5L9Vu45PLiVG/R/SGRyoOaiRZVP8WebTW2QL5PGMa8R1pDw==",
-    "notes": "Critical fix: the currently-playing element is never changed by automation \u2014 only the queue after it. Removed the drift watchdog that could crossfade off a song mid-play (it mis-read the live log, where aired rows are already removed, as being behind schedule). Recovery still runs, but only when the station is idle: an idle auto-mode station self-heals to the current-time element, and stalls resume at the right time. Nothing on air is ever cut."
+    "version": "0.5.15",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.15/AvvioOne-0.5.15.zip",
+    "length": 13777465,
+    "signature": "kGbsO1ZrZVrQm+b8SN2VZ7jCR9XXM9W08tEl8E5WDeK3+W4jSlyIQ5yGG/P+bYvwnM2KPx7n6NRlGNeI4ngfDg==",
+    "notes": "STABILITY ROLLBACK: reverts the continuous-window/auto-resync on-air changes (v0.5.12\u20130.5.14) that could hang the player and freeze the app. The on-air engine is back to the proven v0.5.11 behavior. Kept: rotations in the Audio panel, the Structured Audio clock-builder palette, and the wall-of-ads diagnostics. The overnight continuous-log work will be rebuilt carefully and tested offline before reshipping."
   }
 }
