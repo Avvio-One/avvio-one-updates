@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.16",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.16/AvvioOne-0.5.16.zip",
-    "length": 13782599,
-    "signature": "NImcfk9pBGSP1whMcBZ+ZnGTRevQ8biJpkhd3EqfZBG67EITSWQFR3PP9wZV9WmjLxZVQdfNBBxhJUIYuHR9Bg==",
-    "notes": "Fixes the on-air freeze on network disruptions. Root cause: the stream reconnect watchdog and the per-track metadata pushes read the keychain synchronously on the main thread, and on macOS a keychain ACL prompt makes that call block indefinitely \u2014 freezing the whole app (and dead-airing the stream, which is why Live365 played fallback ads). Now both the stream encoder and the now-playing publisher cache their passwords in memory (loaded once, off the main thread), so a network blip or track change never touches the keychain on the main thread. On-air engine unchanged from v0.5.15."
+    "version": "0.5.17",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.17/AvvioOne-0.5.17.zip",
+    "length": 13783467,
+    "signature": "g9coq56f6REs+dD0ADwtrPXGd6COYrVCDrkAS2OJ8vtCozb2O8De1J9V2YKoGuOleMT5xlle3u1xRApBvcTFAA==",
+    "notes": "Fixes the 'walk away and it stalls' bug. Root cause (from the on-air log): a live output-device re-apply did a full stop/restart of the running audio engine even when the device hadn't changed, and if Core Audio rejected the device ('set output device failed', code 'nope') the engine restarted on a dead device \u2192 silence, no advance. Now the engine resolves the target device first, does nothing if it's unchanged, keeps the current device if the target is unavailable, and restores the previous device if a switch is rejected \u2014 the live graph is only ever touched for a genuine, validated device change. Also restores the Rotations filter in the on-air Audio panel (lost in the v0.5.15 rollback). On-air scheduling engine unchanged."
   }
 }
