@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.20",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.20/AvvioOne-0.5.20.zip",
-    "length": 13788531,
-    "signature": "JCeAym6ormYhcOiW1opdbCOYyiwcq0X6UGi7BO70j4EBnvJB5Ch+OsVhPQBkXlb+39ApPJ1wEHfN0l21qNOyBw==",
-    "notes": "Fixes the station going to 'Nothing Playing' when a remote desktop session connects or disconnects. THE root cause: macOS stops AVAudioEngine itself whenever the audio hardware configuration changes \u2014 which is exactly what Jump Desktop does when it attaches or detaches its virtual audio device \u2014 and the engine never restarts on its own. Nothing in the app was listening for that, so the station silently fell off air until someone relaunched. The engine now watches for the configuration change, re-points at the program output, restarts, and resumes the element that was on air. Repeated connect/disconnect bursts are handled safely."
+    "version": "0.5.21",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.21/AvvioOne-0.5.21.zip",
+    "length": 13795033,
+    "signature": "NtkTrAd9ElBnZQclCXS1ouLGg3qMbzxBfChVHNsMlRvWPSmY6hIP+Z2VOetQZrX+yAW19nBN0m/ZZHZvp6zXDQ==",
+    "notes": "The stream now recovers on its own from a half-open uplink. When the network dies without the socket ever erroring, the connection stays stuck in 'streaming' \u2014 so the reconnect watchdog never fired and the broadcast sat silently dead until something finally errored. The watchdog now also detects that state: if audio is flowing from the player but no bytes have actually gone out since the last check, it treats the uplink as dead and reconnects. It also recovers from a connection attempt that hangs without resolving. A silent station is never mistaken for a dead uplink. Player behaviour is unchanged."
   }
 }
