@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.19",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.19/AvvioOne-0.5.19.zip",
-    "length": 13785210,
-    "signature": "Y8QSWbHfKYsb34vXA9iCBb7Tj1uwO5eXpVTcwpska2+P3mtEINJyWIikdvKXsSVRtVyPe+hJGGWfOSHN0ds4Bw==",
-    "notes": "Fixes the stalls triggered by connecting via remote desktop. A remote session (Jump Desktop) re-enumerates Core Audio, which can briefly make the configured program interface unresolvable or make the audio unit reject it. The engine re-applies the output device on every element start, and it used to log that failure and start ANYWAY on a dead device \u2014 producing splattered static and a frozen playhead. It now falls back to the system default so audio keeps playing, logs which device it landed on, and returns to the configured interface automatically as soon as it's available again. The Live365 stream taps the mixer rather than the physical device, so a fallback never affects the broadcast. Includes the v0.5.18 stream backpressure fix."
+    "version": "0.5.20",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.20/AvvioOne-0.5.20.zip",
+    "length": 13788531,
+    "signature": "JCeAym6ormYhcOiW1opdbCOYyiwcq0X6UGi7BO70j4EBnvJB5Ch+OsVhPQBkXlb+39ApPJ1wEHfN0l21qNOyBw==",
+    "notes": "Fixes the station going to 'Nothing Playing' when a remote desktop session connects or disconnects. THE root cause: macOS stops AVAudioEngine itself whenever the audio hardware configuration changes \u2014 which is exactly what Jump Desktop does when it attaches or detaches its virtual audio device \u2014 and the engine never restarts on its own. Nothing in the app was listening for that, so the station silently fell off air until someone relaunched. The engine now watches for the configuration change, re-points at the program output, restarts, and resumes the element that was on air. Repeated connect/disconnect bursts are handled safely."
   }
 }
