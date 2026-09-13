@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.18",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.18/AvvioOne-0.5.18.zip",
-    "length": 13784929,
-    "signature": "riZ2mtEJLg25QpYgu4xGH1db1D8irBh/rtcDjQfrc8ypBlr2HqM5Hv+6rZkEu4bJFvekOmh9OVfX91t5MfihAA==",
-    "notes": "Fixes the player freezing when the internet drops. Root cause: the Live365 stream encoder had no backpressure. When the uplink goes half-open (network dies but the socket isn't reset yet), sends stop draining while the encoder kept copying ~43 audio buffers a second onto an unbounded queue and kept calling send() without waiting \u2014 memory climbed until the pressure stalled the audio render thread and the playhead froze mid-song. Streaming is now strictly best-effort: the hand-off queue is capped (~0.75s) and only one send is allowed in flight, so a dead uplink DROPS stream audio instead of freezing the station. Local playback is now independent of the internet."
+    "version": "0.5.19",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.19/AvvioOne-0.5.19.zip",
+    "length": 13785210,
+    "signature": "Y8QSWbHfKYsb34vXA9iCBb7Tj1uwO5eXpVTcwpska2+P3mtEINJyWIikdvKXsSVRtVyPe+hJGGWfOSHN0ds4Bw==",
+    "notes": "Fixes the stalls triggered by connecting via remote desktop. A remote session (Jump Desktop) re-enumerates Core Audio, which can briefly make the configured program interface unresolvable or make the audio unit reject it. The engine re-applies the output device on every element start, and it used to log that failure and start ANYWAY on a dead device \u2014 producing splattered static and a frozen playhead. It now falls back to the system default so audio keeps playing, logs which device it landed on, and returns to the configured interface automatically as soon as it's available again. The Live365 stream taps the mixer rather than the physical device, so a fallback never affects the broadcast. Includes the v0.5.18 stream backpressure fix."
   }
 }
