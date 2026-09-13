@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.17",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.17/AvvioOne-0.5.17.zip",
-    "length": 13783467,
-    "signature": "g9coq56f6REs+dD0ADwtrPXGd6COYrVCDrkAS2OJ8vtCozb2O8De1J9V2YKoGuOleMT5xlle3u1xRApBvcTFAA==",
-    "notes": "Fixes the 'walk away and it stalls' bug. Root cause (from the on-air log): a live output-device re-apply did a full stop/restart of the running audio engine even when the device hadn't changed, and if Core Audio rejected the device ('set output device failed', code 'nope') the engine restarted on a dead device \u2192 silence, no advance. Now the engine resolves the target device first, does nothing if it's unchanged, keeps the current device if the target is unavailable, and restores the previous device if a switch is rejected \u2014 the live graph is only ever touched for a genuine, validated device change. Also restores the Rotations filter in the on-air Audio panel (lost in the v0.5.15 rollback). On-air scheduling engine unchanged."
+    "version": "0.5.18",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.18/AvvioOne-0.5.18.zip",
+    "length": 13784929,
+    "signature": "riZ2mtEJLg25QpYgu4xGH1db1D8irBh/rtcDjQfrc8ypBlr2HqM5Hv+6rZkEu4bJFvekOmh9OVfX91t5MfihAA==",
+    "notes": "Fixes the player freezing when the internet drops. Root cause: the Live365 stream encoder had no backpressure. When the uplink goes half-open (network dies but the socket isn't reset yet), sends stop draining while the encoder kept copying ~43 audio buffers a second onto an unbounded queue and kept calling send() without waiting \u2014 memory climbed until the pressure stalled the audio render thread and the playhead froze mid-song. Streaming is now strictly best-effort: the hand-off queue is capped (~0.75s) and only one send is allowed in flight, so a dead uplink DROPS stream audio instead of freezing the station. Local playback is now independent of the internet."
   }
 }
