@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.15",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.15/AvvioOne-0.5.15.zip",
-    "length": 13777465,
-    "signature": "kGbsO1ZrZVrQm+b8SN2VZ7jCR9XXM9W08tEl8E5WDeK3+W4jSlyIQ5yGG/P+bYvwnM2KPx7n6NRlGNeI4ngfDg==",
-    "notes": "STABILITY ROLLBACK: reverts the continuous-window/auto-resync on-air changes (v0.5.12\u20130.5.14) that could hang the player and freeze the app. The on-air engine is back to the proven v0.5.11 behavior. Kept: rotations in the Audio panel, the Structured Audio clock-builder palette, and the wall-of-ads diagnostics. The overnight continuous-log work will be rebuilt carefully and tested offline before reshipping."
+    "version": "0.5.16",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.16/AvvioOne-0.5.16.zip",
+    "length": 13782599,
+    "signature": "NImcfk9pBGSP1whMcBZ+ZnGTRevQ8biJpkhd3EqfZBG67EITSWQFR3PP9wZV9WmjLxZVQdfNBBxhJUIYuHR9Bg==",
+    "notes": "Fixes the on-air freeze on network disruptions. Root cause: the stream reconnect watchdog and the per-track metadata pushes read the keychain synchronously on the main thread, and on macOS a keychain ACL prompt makes that call block indefinitely \u2014 freezing the whole app (and dead-airing the stream, which is why Live365 played fallback ads). Now both the stream encoder and the now-playing publisher cache their passwords in memory (loaded once, off the main thread), so a network blip or track change never touches the keychain on the main thread. On-air engine unchanged from v0.5.15."
   }
 }
