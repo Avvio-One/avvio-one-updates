@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.12",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.12/AvvioOne-0.5.12.zip",
-    "length": 13799418,
-    "signature": "uQY+b9HHZqLD8Xnr8BPxR7UgByYLEoOQiFpFRm/NshGPZO+PtJ2mQo+xSBATga4kphxe50fGiGDUljD5FodgBA==",
-    "notes": "Continuous overnight log: the on-air player now keeps a rolling window of the current day PLUS the next day, so programming flows across midnight with no handoff. The next day's real hours (legal ID, imaging, music) are simply the tail of the queue and play gaplessly the moment the current day ends \u2014 no music-only filler, no idle, no 30-minute catch-up. The primary day slides forward on its own once the current day has fully aired."
+    "version": "0.5.13",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.13/AvvioOne-0.5.13.zip",
+    "length": 13810640,
+    "signature": "jN5HtA/IZDUvmOIH25rDCKGLpn7NhDvBRRaBrYkMJNkxpSjbYgp+9yC8xW2z4bdHP88307Z6aWMnJfVNyeb/Dw==",
+    "notes": "Time-authoritative recovery: the on-air log now dictates what plays based on the clock. After ANY disruption \u2014 a stall, a network blip, the machine left off or asleep \u2014 the player jumps to the element the schedule says is due right now and purges the backed-up stale rows (old music AND empty commercial breaks), instead of grinding forward through hours of backlog. New safeguards run continuously: an idle auto-mode station puts itself back on air, a drift watchdog resyncs when playback falls >10 min behind schedule, and a deliberate operator Stop is respected. No 12am ceremony \u2014 the log is one continuous, always-look-ahead timeline."
   }
 }
