@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.26",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.26/AvvioOne-0.5.26.zip",
-    "length": 13835057,
-    "signature": "DDDcZsj6omMN41awLhT+BSbfwcg5CMLBJPD7xpOP2Nk/Lll5y0/8Vddk5MhsAZVMRruQmsovVthhzuLfRi8zBA==",
-    "notes": "First code-signed release (Developer ID: SKYROCKET RADIO, LLC). This is the fix for the repeating keychain prompts. Because previous builds were unsigned, macOS saw every launch and every update as a different app, so 'Always Allow' could never stick \u2014 the grant had nothing stable to attach to. Signed builds have a stable identity, so granting access once now persists across future updates. You will be prompted one final time after installing this, because the app's identity has changed from unsigned to signed; allow it then and it should not return. App code is unchanged from 0.5.25."
+    "version": "0.5.27",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.27/AvvioOne-0.5.27.zip",
+    "length": 13910489,
+    "signature": "AATj39HdNBunrgslvrcNnd4aYExKkT0EmG2ufqji6Gx8oVCpQW2Iaj733n+4BuSMHSQV3zC8HAqAwxx3vFZsAg==",
+    "notes": "Remote console: the station can now send its program audio to the Avvio monitor bridge, so you can hear the studio from a browser anywhere at roughly a twentieth of a second delay instead of the public stream's 30-60 seconds. The feed leaves out any remote operator's microphone. Configure it in Settings > Remote Console."
   }
 }
