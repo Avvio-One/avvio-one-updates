@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.21",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.21/AvvioOne-0.5.21.zip",
-    "length": 13795033,
-    "signature": "NtkTrAd9ElBnZQclCXS1ouLGg3qMbzxBfChVHNsMlRvWPSmY6hIP+Z2VOetQZrX+yAW19nBN0m/ZZHZvp6zXDQ==",
-    "notes": "The stream now recovers on its own from a half-open uplink. When the network dies without the socket ever erroring, the connection stays stuck in 'streaming' \u2014 so the reconnect watchdog never fired and the broadcast sat silently dead until something finally errored. The watchdog now also detects that state: if audio is flowing from the player but no bytes have actually gone out since the last check, it treats the uplink as dead and reconnects. It also recovers from a connection attempt that hangs without resolving. A silent station is never mistaken for a dead uplink. Player behaviour is unchanged."
+    "version": "0.5.22",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.22/AvvioOne-0.5.22.zip",
+    "length": 13796640,
+    "signature": "Nce8wuqqD0xmE0dOSCcWwCWrNCbm+LPRDlC+kjO3Rik31DciOg++CXi3PnZsiSTSE62GoDoLfX5NfvARPJY+Aw==",
+    "notes": "Fixes the weather segment stalling every hour and its elements airing later out of position. Two causes. (1) An interrupted download leaves a zero-byte file on disk; the 'is the voiceover present?' check only asked whether a file EXISTS, so an empty file counted as present and the segment aired with a 0:00 read \u2014 stalling the log. Present now means real audio on disk, so a failed download means the segment does not air at all, as intended. (2) The segment's bed hand-off briefly idles by design; the code required the bed to be the first pending row in the whole log, while the hand-off had chosen it as the next row after the current element. Any stale row earlier in the log masked it, the hand-off was misread as a stall, and the segment was skipped \u2014 leaving its rows to break the next hour, every hour. The bed is now matched by identity."
   }
 }
