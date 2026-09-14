@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.30",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.30/AvvioOne-0.5.30.zip",
-    "length": 13935352,
-    "signature": "l0kt7I9CIS4goAXm1TNxtRc1NhsT6YgNSpi67P91A+Uc/og7RUT5Um0qClgU1FmQSOO1yqUEgih4Pv7hn3UHBQ==",
-    "notes": "Fixes sign-in to the remote console. Operator accounts were only sent to the relay if the person was assigned a voice-tracking shift, so an admin who never voice tracks was told their password was wrong for an account that did not exist. Anyone who may operate the station now gets a console account, and pressing Apply in Settings > Remote Console sends it straight away."
+    "version": "0.5.31",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.31/AvvioOne-0.5.31.zip",
+    "length": 13934684,
+    "signature": "ogTWu9JWXnGEnhAAMVm9v173RgU5KKvFCQh84VeamcpX/+kMwmSSeHdAdunMsLAlYfxBoHpiKG134UkalcXaAw==",
+    "notes": "Fixes the remote console playing silence. The monitor feed was being tapped after the volume that keeps it off air was applied, so the console received silent audio while every status reading looked healthy."
   }
 }
