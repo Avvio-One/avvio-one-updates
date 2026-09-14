@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.22",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.22/AvvioOne-0.5.22.zip",
-    "length": 13796640,
-    "signature": "Nce8wuqqD0xmE0dOSCcWwCWrNCbm+LPRDlC+kjO3Rik31DciOg++CXi3PnZsiSTSE62GoDoLfX5NfvARPJY+Aw==",
-    "notes": "Fixes the weather segment stalling every hour and its elements airing later out of position. Two causes. (1) An interrupted download leaves a zero-byte file on disk; the 'is the voiceover present?' check only asked whether a file EXISTS, so an empty file counted as present and the segment aired with a 0:00 read \u2014 stalling the log. Present now means real audio on disk, so a failed download means the segment does not air at all, as intended. (2) The segment's bed hand-off briefly idles by design; the code required the bed to be the first pending row in the whole log, while the hand-off had chosen it as the next row after the current element. Any stale row earlier in the log masked it, the hand-off was misread as a stall, and the segment was skipped \u2014 leaving its rows to break the next hour, every hour. The bed is now matched by identity."
+    "version": "0.5.23",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.23/AvvioOne-0.5.23.zip",
+    "length": 13806770,
+    "signature": "ep0aCrZgfGJLegKIY0KsFV3f1VPz+/culYB1gKJMsrSuhduW4sYzC/Ws9eVZsbQIo4IBKjRGn2Wsq1cqVV6UCg==",
+    "notes": "Adds a per-file freshness limit for Online Audio, so stale content can never air. A failed refresh leaves the previous download on disk \u2014 a perfectly valid audio file \u2014 so every check passed and two-day-old weather aired as if it were current. Each entry in Settings \u25b8 Online Audio can now set 'Use only if fresher than' (15 min through 24 hours). Past that age the file is treated as not present: the element doesn't air, and a segment using it as its voiceover is skipped entirely rather than airing stale audio. Existing entries default to no limit, so nothing changes until you set one."
   }
 }
