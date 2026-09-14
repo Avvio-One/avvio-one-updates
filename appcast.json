@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.23",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.23/AvvioOne-0.5.23.zip",
-    "length": 13806770,
-    "signature": "ep0aCrZgfGJLegKIY0KsFV3f1VPz+/culYB1gKJMsrSuhduW4sYzC/Ws9eVZsbQIo4IBKjRGn2Wsq1cqVV6UCg==",
-    "notes": "Adds a per-file freshness limit for Online Audio, so stale content can never air. A failed refresh leaves the previous download on disk \u2014 a perfectly valid audio file \u2014 so every check passed and two-day-old weather aired as if it were current. Each entry in Settings \u25b8 Online Audio can now set 'Use only if fresher than' (15 min through 24 hours). Past that age the file is treated as not present: the element doesn't air, and a segment using it as its voiceover is skipped entirely rather than airing stale audio. Existing entries default to no limit, so nothing changes until you set one."
+    "version": "0.5.24",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.24/AvvioOne-0.5.24.zip",
+    "length": 13809379,
+    "signature": "XT5MLSZnsgo56eD583AlqXmk+qgM1BbVh8YS0si7ThIHlq77vuR1UwaeXngOsVUtpQTgBZ4NPJhvM109BxcQAg==",
+    "notes": "Online Audio now stays current on the airing machine. This is the real reason the weather was two days old: a cached online file was downloaded once at app launch and then never refreshed again for the life of the process \u2014 External and FTP audio both poll, Online Audio had no equivalent. Setting a freshness limit on an entry now also enables automatic refresh: the file is re-downloaded once it reaches half its limit, so it is comfortably current whenever it airs. Entries with no limit keep the previous behaviour (fetched once, refreshed on demand), so nothing downloads in the background unless you ask for it. Pairs with the freshness limit added in 0.5.23 \u2014 together they mean fresh content airs and stale content is skipped."
   }
 }
