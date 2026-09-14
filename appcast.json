@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.28",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.28/AvvioOne-0.5.28.zip",
-    "length": 13929698,
-    "signature": "I/Wx8JnRT7SyacbxwxdiN2zDovJwJ0fr3fyez96ky05nszxQ/0DShY3znDsgcrkTkaWEX942AUJXKaLBLfczCQ==",
-    "notes": "Fixes the clustered commercial stop sets that appeared in the on-air log after a restart. Breaks the station had already passed were never cleaned up, so they piled up and resurfaced at the top of the log looking like duplicates. Also fixes a case where a break's spots could land under the wrong stop set, and adds logging so any recurrence identifies itself."
+    "version": "0.5.29",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.29/AvvioOne-0.5.29.zip",
+    "length": 13932446,
+    "signature": "ef9IYJEjN3ot2JDAziD9A7sh3cKX7343g/eAkPQVjR+i8oR+qT2k+DwWnG2KQOcVWxcRc5qlY95VB6SVA1HgDg==",
+    "notes": "Settings > Remote Console now has its own Station Key field, so you no longer have to visit the Remote Voice Tracks pane to set it. You do not need voice tracking enabled to use the remote console."
   }
 }
