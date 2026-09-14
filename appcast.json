@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.24",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.24/AvvioOne-0.5.24.zip",
-    "length": 13809379,
-    "signature": "XT5MLSZnsgo56eD583AlqXmk+qgM1BbVh8YS0si7ThIHlq77vuR1UwaeXngOsVUtpQTgBZ4NPJhvM109BxcQAg==",
-    "notes": "Online Audio now stays current on the airing machine. This is the real reason the weather was two days old: a cached online file was downloaded once at app launch and then never refreshed again for the life of the process \u2014 External and FTP audio both poll, Online Audio had no equivalent. Setting a freshness limit on an entry now also enables automatic refresh: the file is re-downloaded once it reaches half its limit, so it is comfortably current whenever it airs. Entries with no limit keep the previous behaviour (fetched once, refreshed on demand), so nothing downloads in the background unless you ask for it. Pairs with the freshness limit added in 0.5.23 \u2014 together they mean fresh content airs and stale content is skipped."
+    "version": "0.5.25",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.25/AvvioOne-0.5.25.zip",
+    "length": 13827129,
+    "signature": "vs3hzfo4XBOOuLiBxtt8oab0yu72cR1PLgorLLzwvMHhXF1orTkclySpMxIsVPbXcH4How14Mp/fGFVOwezDBA==",
+    "notes": "Makes the Online Audio freshness limit visible where you actually look for it. It was only reachable by opening an entry's editor, which wasn't discoverable. Each row in Settings \u25b8 Online Audio \u25b8 Sources now shows its limit on the right and you can set it straight from the list \u2014 'No limit' through 24 hours. Setting one does two jobs: the station keeps that file automatically refreshed well before it expires, and if it's ever older than the limit it won't air (a segment using it is skipped rather than airing stale audio). Explanatory text added under the list."
   }
 }
