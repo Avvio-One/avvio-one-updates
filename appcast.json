@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.25",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.25/AvvioOne-0.5.25.zip",
-    "length": 13827129,
-    "signature": "vs3hzfo4XBOOuLiBxtt8oab0yu72cR1PLgorLLzwvMHhXF1orTkclySpMxIsVPbXcH4How14Mp/fGFVOwezDBA==",
-    "notes": "Makes the Online Audio freshness limit visible where you actually look for it. It was only reachable by opening an entry's editor, which wasn't discoverable. Each row in Settings \u25b8 Online Audio \u25b8 Sources now shows its limit on the right and you can set it straight from the list \u2014 'No limit' through 24 hours. Setting one does two jobs: the station keeps that file automatically refreshed well before it expires, and if it's ever older than the limit it won't air (a segment using it is skipped rather than airing stale audio). Explanatory text added under the list."
+    "version": "0.5.26",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.26/AvvioOne-0.5.26.zip",
+    "length": 13835057,
+    "signature": "DDDcZsj6omMN41awLhT+BSbfwcg5CMLBJPD7xpOP2Nk/Lll5y0/8Vddk5MhsAZVMRruQmsovVthhzuLfRi8zBA==",
+    "notes": "First code-signed release (Developer ID: SKYROCKET RADIO, LLC). This is the fix for the repeating keychain prompts. Because previous builds were unsigned, macOS saw every launch and every update as a different app, so 'Always Allow' could never stick \u2014 the grant had nothing stable to attach to. Signed builds have a stable identity, so granting access once now persists across future updates. You will be prompted one final time after installing this, because the app's identity has changed from unsigned to signed; allow it then and it should not return. App code is unchanged from 0.5.25."
   }
 }
