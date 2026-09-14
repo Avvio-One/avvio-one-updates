@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.27",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.27/AvvioOne-0.5.27.zip",
-    "length": 13910489,
-    "signature": "AATj39HdNBunrgslvrcNnd4aYExKkT0EmG2ufqji6Gx8oVCpQW2Iaj733n+4BuSMHSQV3zC8HAqAwxx3vFZsAg==",
-    "notes": "Remote console: the station can now send its program audio to the Avvio monitor bridge, so you can hear the studio from a browser anywhere at roughly a twentieth of a second delay instead of the public stream's 30-60 seconds. The feed leaves out any remote operator's microphone. Configure it in Settings > Remote Console."
+    "version": "0.5.28",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.28/AvvioOne-0.5.28.zip",
+    "length": 13929698,
+    "signature": "I/Wx8JnRT7SyacbxwxdiN2zDovJwJ0fr3fyez96ky05nszxQ/0DShY3znDsgcrkTkaWEX942AUJXKaLBLfczCQ==",
+    "notes": "Fixes the clustered commercial stop sets that appeared in the on-air log after a restart. Breaks the station had already passed were never cleaned up, so they piled up and resurfaced at the top of the log looking like duplicates. Also fixes a case where a break's spots could land under the wrong stop set, and adds logging so any recurrence identifies itself."
   }
 }
