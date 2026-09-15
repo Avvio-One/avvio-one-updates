@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.31",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.31/AvvioOne-0.5.31.zip",
-    "length": 13934684,
-    "signature": "ogTWu9JWXnGEnhAAMVm9v173RgU5KKvFCQh84VeamcpX/+kMwmSSeHdAdunMsLAlYfxBoHpiKG134UkalcXaAw==",
-    "notes": "Fixes the remote console playing silence. The monitor feed was being tapped after the volume that keeps it off air was applied, so the console received silent audio while every status reading looked healthy."
+    "version": "0.5.32",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.32/AvvioOne-0.5.32.zip",
+    "length": 13935611,
+    "signature": "t9lIQXEB79XoCu8t/Lb/zyX0Z+hOFf5HpFvpGXa/lsk66uCNR1lN3VV8mOCiZ9t5fI7eSf3aqeYpu8dJtX7HBQ==",
+    "notes": "Fixes the station going off air overnight. If the day's log ran out after midnight and the last element stalled, the app could not switch to the new day and sat silent until it was restarted. It now rolls over to the current day and resumes on its own."
   }
 }
