@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.36",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.36/AvvioOne-0.5.36.zip",
-    "length": 13946272,
-    "signature": "g94iknUEMsnCAAlD+xAoK9IJ5dZSwCArbrjMuwtj7f8vXHtoAG2R6OaoN+DTUj19yXUZkvKIso8wxhTI5kWECg==",
-    "notes": "New option in Settings > General > Log: 'Keep aired items in the log'. With it on, the day stays whole \u2014 aired items remain, greyed out, so the Logs screen reads as it was generated instead of emptying as it airs. Off by default; turning it off again takes effect immediately."
+    "version": "0.5.37",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.37/AvvioOne-0.5.37.zip",
+    "length": 13949277,
+    "signature": "FN1jqCN8yunXEbkjZj+hpSqjDAuSO/W0oXHyhSl4R05h4lVixxkP2+OdlbfNJ5qmHq8LqN1p6cIX9Z1B/DVcCw==",
+    "notes": "With 'Keep aired items in the log' switched on, the On Air screen now shows the current hour in context: what has already aired sits dimmed above what is playing, and the log still scrolls the on-air item to the top as it advances."
   }
 }
