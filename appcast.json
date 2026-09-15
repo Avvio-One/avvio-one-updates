@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.35",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.35/AvvioOne-0.5.35.zip",
-    "length": 13943464,
-    "signature": "vQUutSDO15NWkyb9gGHtPFh3RXDqVo9wBYdzhvwdZIahmLTNCSP6D6Ifc8PjeMetcdM73wz6tVDjtarT3ojNCA==",
-    "notes": "Groundwork for showing the day as generated rather than erasing it as it airs. No visible change yet."
+    "version": "0.5.36",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.36/AvvioOne-0.5.36.zip",
+    "length": 13946272,
+    "signature": "g94iknUEMsnCAAlD+xAoK9IJ5dZSwCArbrjMuwtj7f8vXHtoAG2R6OaoN+DTUj19yXUZkvKIso8wxhTI5kWECg==",
+    "notes": "New option in Settings > General > Log: 'Keep aired items in the log'. With it on, the day stays whole \u2014 aired items remain, greyed out, so the Logs screen reads as it was generated instead of emptying as it airs. Off by default; turning it off again takes effect immediately."
   }
 }
