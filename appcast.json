@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.34",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.34/AvvioOne-0.5.34.zip",
-    "length": 13942361,
-    "signature": "aqI5XkiGBaglIcKQszShyEYbyWR12KspacUMy5cCyu68bDBM2VQEx0EAx+GA+K8UlhjClB2D426+2kO1r24LBg==",
-    "notes": "Fixes the weather segment airing in the middle of a music sweep instead of after the first stop set. A segment is armed one element ahead, and if the log changed in between it could still fire from wherever it had moved to."
+    "version": "0.5.35",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.35/AvvioOne-0.5.35.zip",
+    "length": 13943464,
+    "signature": "vQUutSDO15NWkyb9gGHtPFh3RXDqVo9wBYdzhvwdZIahmLTNCSP6D6Ifc8PjeMetcdM73wz6tVDjtarT3ojNCA==",
+    "notes": "Groundwork for showing the day as generated rather than erasing it as it airs. No visible change yet."
   }
 }
