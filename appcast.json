@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.33",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.33/AvvioOne-0.5.33.zip",
-    "length": 13938044,
-    "signature": "Fpk0+8hJFwSwWY60FLHhTlij0xdRCqT9jc++2RYqaAySZrzE84dRsIf8Z3tlSoOclGkU5akKYnu4Wv/VFCRmAw==",
-    "notes": "The As-Run Log now has a Detail column explaining any error, and dead-air entries say what was playing, its category, how far in, and what came next. Reports > Errors & Skips already lists errors on their own with the same detail."
+    "version": "0.5.34",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.34/AvvioOne-0.5.34.zip",
+    "length": 13942361,
+    "signature": "aqI5XkiGBaglIcKQszShyEYbyWR12KspacUMy5cCyu68bDBM2VQEx0EAx+GA+K8UlhjClB2D426+2kO1r24LBg==",
+    "notes": "Fixes the weather segment airing in the middle of a music sweep instead of after the first stop set. A segment is armed one element ahead, and if the log changed in between it could still fire from wherever it had moved to."
   }
 }
