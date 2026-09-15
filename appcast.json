@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.32",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.32/AvvioOne-0.5.32.zip",
-    "length": 13935611,
-    "signature": "t9lIQXEB79XoCu8t/Lb/zyX0Z+hOFf5HpFvpGXa/lsk66uCNR1lN3VV8mOCiZ9t5fI7eSf3aqeYpu8dJtX7HBQ==",
-    "notes": "Fixes the station going off air overnight. If the day's log ran out after midnight and the last element stalled, the app could not switch to the new day and sat silent until it was restarted. It now rolls over to the current day and resumes on its own."
+    "version": "0.5.33",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.33/AvvioOne-0.5.33.zip",
+    "length": 13938044,
+    "signature": "Fpk0+8hJFwSwWY60FLHhTlij0xdRCqT9jc++2RYqaAySZrzE84dRsIf8Z3tlSoOclGkU5akKYnu4Wv/VFCRmAw==",
+    "notes": "The As-Run Log now has a Detail column explaining any error, and dead-air entries say what was playing, its category, how far in, and what came next. Reports > Errors & Skips already lists errors on their own with the same detail."
   }
 }
