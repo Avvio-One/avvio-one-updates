@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.41",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.41/AvvioOne-0.5.41.zip",
-    "length": 14068643,
-    "signature": "WeEOUhrXvKapY6VhuG1iHvBYa3+3/bHxIgZkOlPgxSK+q/PMXFqDeC597l6EUDPd9fNWNYHB2P4VUr99pEZ3AQ==",
-    "notes": "New: Replace Audio File. Right-click a song in the Library and choose Replace Audio File\u2026 to swap in a new version of the audio. The song keeps its rotation, hotkeys, history and place in upcoming logs; its length, cue points and loudness are measured again, upcoming logs are retimed, and the old file goes to the Trash."
+    "version": "0.5.42",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.42/AvvioOne-0.5.42.zip",
+    "length": 14594416,
+    "signature": "D5NeQ9liyJRJAZmkHST1SEnIUsB+ZdlgbMBvgOew1UYIThK/dTEOZQmdZScsTi61PCvnBI11jLorr5soPjEiCw==",
+    "notes": "Production workstations: a laptop can safely work on the master's logs, voice tracks, library, clocks, schedule and traffic without touching what's on air (Settings \u25b8 Network). Production Mode now hides On Air and opens on the Library. Includes v0.5.41 (Replace Audio File). Both Macs must run the same version to connect."
   }
 }
