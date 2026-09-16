@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.38",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.38/AvvioOne-0.5.38.zip",
-    "length": 13947261,
-    "signature": "fTIvbVuCCsCoaJSQZcvs5Ce4KIBuEMVCj9Y5YDrpCk89BCCI1r2Oy5e1FDVB2CvpikqJ9ssrJxw+jEh1AyJWDA==",
-    "notes": "Fixes the stall logged every hour right after the first commercial break ('Playback stopped unexpectedly') and the weather airing near the end of the hour instead of right after that break."
+    "version": "0.5.39",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.39/AvvioOne-0.5.39.zip",
+    "length": 13950513,
+    "signature": "4Uyq9sDRwYGoWjmQ3DM9yos4IJFOxABPHGhUNmXskUcmdv6e4pTaukmJ9H9d95Ns/NWyWrrGVyPMdTCvZy8QAg==",
+    "notes": "Fixes the midnight handoff. The new day now takes over after the song playing at midnight, starting at the item scheduled for the current time, instead of waiting until the previous day's log ran out. A commercial break or weather segment in progress still finishes first."
   }
 }
