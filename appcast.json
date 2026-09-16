@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.40",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.40/AvvioOne-0.5.40.zip",
-    "length": 13960305,
-    "signature": "S5TD8tiRPWDPKZ85YrevyUJaLywN95T3rZ2MxApvKdC92oVHvCE3UBISgqKcyRxNNftxsuYYMidDZKWcdaMFAA==",
-    "notes": "Internal groundwork for keeping the generated schedule separate from the On Air log. Updates the database on first launch. No change to how the station plays."
+    "version": "0.5.41",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.41/AvvioOne-0.5.41.zip",
+    "length": 14068643,
+    "signature": "WeEOUhrXvKapY6VhuG1iHvBYa3+3/bHxIgZkOlPgxSK+q/PMXFqDeC597l6EUDPd9fNWNYHB2P4VUr99pEZ3AQ==",
+    "notes": "New: Replace Audio File. Right-click a song in the Library and choose Replace Audio File\u2026 to swap in a new version of the audio. The song keeps its rotation, hotkeys, history and place in upcoming logs; its length, cue points and loudness are measured again, upcoming logs are retimed, and the old file goes to the Trash."
   }
 }
