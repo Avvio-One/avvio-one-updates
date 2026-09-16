@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.39",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.39/AvvioOne-0.5.39.zip",
-    "length": 13950513,
-    "signature": "4Uyq9sDRwYGoWjmQ3DM9yos4IJFOxABPHGhUNmXskUcmdv6e4pTaukmJ9H9d95Ns/NWyWrrGVyPMdTCvZy8QAg==",
-    "notes": "Fixes the midnight handoff. The new day now takes over after the song playing at midnight, starting at the item scheduled for the current time, instead of waiting until the previous day's log ran out. A commercial break or weather segment in progress still finishes first."
+    "version": "0.5.40",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.40/AvvioOne-0.5.40.zip",
+    "length": 13960305,
+    "signature": "S5TD8tiRPWDPKZ85YrevyUJaLywN95T3rZ2MxApvKdC92oVHvCE3UBISgqKcyRxNNftxsuYYMidDZKWcdaMFAA==",
+    "notes": "Internal groundwork for keeping the generated schedule separate from the On Air log. Updates the database on first launch. No change to how the station plays."
   }
 }
