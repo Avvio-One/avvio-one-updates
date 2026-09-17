@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.44",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.44/AvvioOne-0.5.44.zip",
-    "length": 14760180,
-    "signature": "KPyvF8NLetI6Z64cq5y63w+BwF34Gp4m0LhdkvCZTCAtJOf5GGWoAz2Mtkiqhpw9FVgy0WHUlBrQzCcyuLDwDQ==",
-    "notes": "Workstations can edit audio: the song is fetched from the master so cue points, the waveform, Auto-Detect, tempo preview and playback all work on the laptop, and edits save to the master. Batch Auto-Detect Cues works from a workstation. Only workstations need this update; the master can stay on 0.5.43."
+    "version": "0.5.45",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.45/AvvioOne-0.5.45.zip",
+    "length": 14761209,
+    "signature": "NeUy4di9VTg50g3q+wvv4cRTdKogpnAis76h7dvCfNX6nZ0Ap6cRC820oN8Hz3gvuY48E37kNFxkyIJiItB3Bw==",
+    "notes": "Production machines show a small \"Production\" label above Settings in the left bar instead of the full-width banner. Only workstations need this update."
   }
 }
