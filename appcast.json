@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.45",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.45/AvvioOne-0.5.45.zip",
-    "length": 14761209,
-    "signature": "NeUy4di9VTg50g3q+wvv4cRTdKogpnAis76h7dvCfNX6nZ0Ap6cRC820oN8Hz3gvuY48E37kNFxkyIJiItB3Bw==",
-    "notes": "Production machines show a small \"Production\" label above Settings in the left bar instead of the full-width banner. Only workstations need this update."
+    "version": "0.5.46",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.46/AvvioOne-0.5.46.zip",
+    "length": 14769015,
+    "signature": "TnuGlxjzawBc+hwo7boxtvJbFAqPYSNU5pw6SzXJvb1HqPI3RWdfpR9B/hKg+gENVXNza5+6/bme+09rqAfkCg==",
+    "notes": "Cue editor: zooming in near a marker keeps that marker in place instead of sliding it off the screen, and the start or end of the song stays put when zooming at the edge. The focus outline that stretched around the waveform while zoomed is gone. Works on any Mac; no need to update the Mini and workstations together."
   }
 }
