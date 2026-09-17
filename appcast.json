@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.42",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.42/AvvioOne-0.5.42.zip",
-    "length": 14594416,
-    "signature": "D5NeQ9liyJRJAZmkHST1SEnIUsB+ZdlgbMBvgOew1UYIThK/dTEOZQmdZScsTi61PCvnBI11jLorr5soPjEiCw==",
-    "notes": "Production workstations: a laptop can safely work on the master's logs, voice tracks, library, clocks, schedule and traffic without touching what's on air (Settings \u25b8 Network). Production Mode now hides On Air and opens on the Library. Includes v0.5.41 (Replace Audio File). Both Macs must run the same version to connect."
+    "version": "0.5.43",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.43/AvvioOne-0.5.43.zip",
+    "length": 14714923,
+    "signature": "YekOqZfEobl9aWQWCLNkR/EBEPM2v+QoopeR4kTKo12cZuObdhc8PGdt/sOLPOYf0LmEn/9kegMnnBSEo+J+Ag==",
+    "notes": "Workstations: the laptop now shares the Mini's shift schedule, hot keys, play history (reports) and audio settings (each Mac keeps its own audio devices). A refused log edit now says why. Settings \u25b8 Network on the Mini lists connected Macs with their versions, and Macs refused for a version mismatch. Update the Mini and every workstation together."
   }
 }
