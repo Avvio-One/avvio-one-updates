@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.48",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.48/AvvioOne-0.5.48.zip",
-    "length": 14859731,
-    "signature": "XmWqYNVVpw5FkJlYrbXB6F0o/0Ba1mFjJpjoAAzOcMxU4aQuDY6+AMM0keakk9KNZw6OAiyQnlaRAlkSdyZ0DQ==",
-    "notes": "Log Editor: right-click a song and choose Edit Metadata\u2026 to open the same editor as the Library \u2014 metadata, waveform and cue points \u2014 without leaving the log. Works on any Mac; no need to update the Mini and workstations together."
+    "version": "0.5.49",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.49/AvvioOne-0.5.49.zip",
+    "length": 14887768,
+    "signature": "mD+H9W1nCfye7jv+uD7yBBNv+23IHqWExyuLakA4pE4odhu0DCMdMUn1enWYWHyF42vPKKC7Jhj29CfOMGcxCw==",
+    "notes": "Signing in on a workstation no longer takes two tries: the sign-in screen waits for the master, says what it's doing in the modal, and enables Sign In as soon as the master is found. Workstations need this update; the master can follow when convenient."
   }
 }
