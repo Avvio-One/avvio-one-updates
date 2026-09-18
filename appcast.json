@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.49",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.49/AvvioOne-0.5.49.zip",
-    "length": 14887768,
-    "signature": "mD+H9W1nCfye7jv+uD7yBBNv+23IHqWExyuLakA4pE4odhu0DCMdMUn1enWYWHyF42vPKKC7Jhj29CfOMGcxCw==",
-    "notes": "Signing in on a workstation no longer takes two tries: the sign-in screen waits for the master, says what it's doing in the modal, and enables Sign In as soon as the master is found. Workstations need this update; the master can follow when convenient."
+    "version": "0.5.50",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.50/AvvioOne-0.5.50.zip",
+    "length": 14907392,
+    "signature": "uS/SvuwmTBW68h/94p3nrZ/zn6EnwHb3IikTtB2H4KMdtDqtszk5EynvBtvUvWBPojOLah4c4E5GNUmsYLasBg==",
+    "notes": "Signing in on a workstation takes one try again: a connection that stalled for a moment was mistaken for an out-of-date master, and the client stopped retrying. It now rides that out, restarts a stalled sign-in after 8 seconds, and shows \"Connecting to \u2026\" while it works. Workstations need this update; the master can follow when convenient."
   }
 }
