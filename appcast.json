@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.47",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.47/AvvioOne-0.5.47.zip",
-    "length": 14842196,
-    "signature": "EAy+yObQNwer0PUR0a2cvkYBDYMNjwzeO9OLQQya6rDCPkgczrBNDVUG9O5LOLD+oEC0U+FOfCemIAScwZePAg==",
-    "notes": "Workstations recover on their own when the link to the master dies (heartbeat, reconnect, requests that time out instead of hanging), and a banner now says when a workstation isn't connected and why \u2014 pages no longer just look empty. The Log Editor can insert Structured Audio segments. Workstations need this update; the master can follow when convenient."
+    "version": "0.5.48",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.48/AvvioOne-0.5.48.zip",
+    "length": 14859731,
+    "signature": "XmWqYNVVpw5FkJlYrbXB6F0o/0Ba1mFjJpjoAAzOcMxU4aQuDY6+AMM0keakk9KNZw6OAiyQnlaRAlkSdyZ0DQ==",
+    "notes": "Log Editor: right-click a song and choose Edit Metadata\u2026 to open the same editor as the Library \u2014 metadata, waveform and cue points \u2014 without leaving the log. Works on any Mac; no need to update the Mini and workstations together."
   }
 }
