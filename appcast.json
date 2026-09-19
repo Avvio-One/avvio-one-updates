@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.52",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.52/AvvioOne-0.5.52.zip",
-    "length": 15562344,
-    "signature": "hJaHxUxrHDkybx0cvU6Ae9yWNDFAYwaG47bHSVYZAg/Y0+VTQwz3qoBjBO6ZTcEbf7CrSuoCJU7MfSUOwJ4iAw==",
-    "notes": "New Assistant screen: ask about your library, logs and what aired, and get changes prepared as cards you approve. Connectors for Anthropic and OpenAI in Settings \u25b8 AI Assistant."
+    "version": "0.5.53",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.53/AvvioOne-0.5.53.zip",
+    "length": 15578505,
+    "signature": "mRO4hPnkyGjWyVIrHLFwIYeiOEUnILPLNwOrWUFPQ7qNvVTDzYfG6HZ0haD5qnHOXb2LAA9BrmFtAA65hKxRCg==",
+    "notes": "Assistant: an empty library search now says which filter emptied it, so it can't report that audio is missing from the library when it's simply filed elsewhere."
   }
 }
