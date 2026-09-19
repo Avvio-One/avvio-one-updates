@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.53",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.53/AvvioOne-0.5.53.zip",
-    "length": 15578505,
-    "signature": "mRO4hPnkyGjWyVIrHLFwIYeiOEUnILPLNwOrWUFPQ7qNvVTDzYfG6HZ0haD5qnHOXb2LAA9BrmFtAA65hKxRCg==",
-    "notes": "Assistant: an empty library search now says which filter emptied it, so it can't report that audio is missing from the library when it's simply filed elsewhere."
+    "version": "0.5.54",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.54/AvvioOne-0.5.54.zip",
+    "length": 15664227,
+    "signature": "dScYRWzlDHMLAkydLlELVV25D/x8cZv2PO+TQzCSPj0Ug/KG4MjrVESxg0HW1bEDlPIWfR1YmyAaYkVEbkDsAw==",
+    "notes": "Assistant: the station's suggested prompts are now yours to edit (Settings \u25b8 AI Assistant) and shared between Macs; its checks collapse to one line per step. Also hides the stray empty window macOS sometimes leaves on screen."
   }
 }
