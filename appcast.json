@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.57",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.57/AvvioOne-0.5.57.zip",
-    "length": 16012754,
-    "signature": "/7uwacv8uNF8I2SnZcmToMrbvuHPw+7gEfeubKY7gcEskPdCf5/anpkDqgsE649Qj+P95+LCCYBMFSLdktM2Bw==",
-    "notes": "Clocks can be filed into groups (Weekday, Weekend, Overnight\u2026) and both the Clock Builder and the Schedules palette can show one group at a time. The top of the hour now always opens with its opener \u2014 production left past the top by trimming is removed with the music. Replace Audio files the element into the station audio folder if it isn't there already."
+    "version": "0.5.58",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.58/AvvioOne-0.5.58.zip",
+    "length": 16166947,
+    "signature": "/owxa/Xpom49wLtXn2nUGreCAimtH+hD5xW6Mbz7xhI10G2MxaumowZsMgS2Hgqv1c7WoSEU5LhiOBe4NFM3BQ==",
+    "notes": "Artist separation now counts every artist on a credit, so a duet is held apart from both of its artists, and Settings \u25b8 Separations lets you group related acts (Sting / The Police, Michael McDonald / The Doobie Brothers) plus list band names that must not be split."
   }
 }
