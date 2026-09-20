@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.55",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.55/AvvioOne-0.5.55.zip",
-    "length": 15889279,
-    "signature": "uxJkMHYASWaxILdCqLk83cIceLBFCI50B5dR1xL5pSBwbrY+SZTeG/GOkvpamCf3fui1CXr7XVWLPE8M+tkgCQ==",
-    "notes": "One audio folder at /Users/Shared/Avvio with a subfolder per type; imports file themselves there, and Settings \u25b8 Audio Files moves existing audio in safely while on air. Imports also check for duplicates first and ask what to do about each one. The assistant's suggested prompts are now editable by an admin, and a stray empty window at launch is gone."
+    "version": "0.5.56",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.56/AvvioOne-0.5.56.zip",
+    "length": 15925036,
+    "signature": "xHAhHq4aS5ht0wFmZkjFesDvA06DYx3UhWMNe8ymOJNIEzOF2MrwAtrUfYWXCVLZwEmw2EwxWi6/wzOMc0PXCw==",
+    "notes": "Imports now run Auto-Detect Cues over exactly what they added (Settings \u25b8 Audio Files \u25b8 Importing), and untagged audio takes its title and artist from the file name. Also fixes the singular wording in the audio-move report."
   }
 }
