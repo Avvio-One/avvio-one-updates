@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.54",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.54/AvvioOne-0.5.54.zip",
-    "length": 15664227,
-    "signature": "dScYRWzlDHMLAkydLlELVV25D/x8cZv2PO+TQzCSPj0Ug/KG4MjrVESxg0HW1bEDlPIWfR1YmyAaYkVEbkDsAw==",
-    "notes": "Assistant: the station's suggested prompts are now yours to edit (Settings \u25b8 AI Assistant) and shared between Macs; its checks collapse to one line per step. Also hides the stray empty window macOS sometimes leaves on screen."
+    "version": "0.5.55",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.55/AvvioOne-0.5.55.zip",
+    "length": 15889279,
+    "signature": "uxJkMHYASWaxILdCqLk83cIceLBFCI50B5dR1xL5pSBwbrY+SZTeG/GOkvpamCf3fui1CXr7XVWLPE8M+tkgCQ==",
+    "notes": "One audio folder at /Users/Shared/Avvio with a subfolder per type; imports file themselves there, and Settings \u25b8 Audio Files moves existing audio in safely while on air. Imports also check for duplicates first and ask what to do about each one. The assistant's suggested prompts are now editable by an admin, and a stray empty window at launch is gone."
   }
 }
