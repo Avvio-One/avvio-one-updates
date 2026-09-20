@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.58",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.58/AvvioOne-0.5.58.zip",
-    "length": 16166947,
-    "signature": "/owxa/Xpom49wLtXn2nUGreCAimtH+hD5xW6Mbz7xhI10G2MxaumowZsMgS2Hgqv1c7WoSEU5LhiOBe4NFM3BQ==",
-    "notes": "Artist separation now counts every artist on a credit, so a duet is held apart from both of its artists, and Settings \u25b8 Separations lets you group related acts (Sting / The Police, Michael McDonald / The Doobie Brothers) plus list band names that must not be split."
+    "version": "0.5.59",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.59/AvvioOne-0.5.59.zip",
+    "length": 16190258,
+    "signature": "NITw5fJHBSZzn+xshSblEL4d5MnM5NkxQWZuuBJXTv51SXCq3aW4DTdSS4wvuhJUhRvgrorMRCyORFXTNwlUAw==",
+    "notes": "Settings \u25b8 Audio \u25b8 Loudness gains Re-measure All, for audio that changed on disk outside Avvio \u2014 a library normalised on another machine and copied back. It discards every stored loudness figure and measures again, with progress, while the station stays on air."
   }
 }
