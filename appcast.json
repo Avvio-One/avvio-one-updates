@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.56",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.56/AvvioOne-0.5.56.zip",
-    "length": 15925036,
-    "signature": "xHAhHq4aS5ht0wFmZkjFesDvA06DYx3UhWMNe8ymOJNIEzOF2MrwAtrUfYWXCVLZwEmw2EwxWi6/wzOMc0PXCw==",
-    "notes": "Imports now run Auto-Detect Cues over exactly what they added (Settings \u25b8 Audio Files \u25b8 Importing), and untagged audio takes its title and artist from the file name. Also fixes the singular wording in the audio-move report."
+    "version": "0.5.57",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.57/AvvioOne-0.5.57.zip",
+    "length": 16012754,
+    "signature": "/7uwacv8uNF8I2SnZcmToMrbvuHPw+7gEfeubKY7gcEskPdCf5/anpkDqgsE649Qj+P95+LCCYBMFSLdktM2Bw==",
+    "notes": "Clocks can be filed into groups (Weekday, Weekend, Overnight\u2026) and both the Clock Builder and the Schedules palette can show one group at a time. The top of the hour now always opens with its opener \u2014 production left past the top by trimming is removed with the music. Replace Audio files the element into the station audio folder if it isn't there already."
   }
 }
