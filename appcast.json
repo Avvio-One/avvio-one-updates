@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.61",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.61/AvvioOne-0.5.61.zip",
-    "length": 16521789,
-    "signature": "1BbVIFASRbc8YVll42mpNdg90LKOPtD6RfAE98EwyGb1U1yKcQIJbInhEKpvVEFSXFWvf6reYICXIt0T4UQcBg==",
-    "notes": "Import & Export gains a preview before anything is written, plus an 'Add and update' mode that brings edits home from a copy you took away \u2014 and an opt-in Stream settings section that never carries the password and always arrives switched off. An element with no artist of its own (weather, sweepers, external audio) now shows the station's name instead of the off-air prompt; set it in Settings > General > Station."
+    "version": "0.5.62",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.62/AvvioOne-0.5.62.zip",
+    "length": 16542212,
+    "signature": "ulmP5JooXpBDDbY/od4yAZTakPHo02F/+MhUBWYKixEcV0KtsKwsJq7pOHyFiJrKHT0A/t9hFwJqSIBRTK17Aw==",
+    "notes": "A playback stall now says why it happened: what was last on air, what came next, and \u2014 when a segment's talk-over bed was mid-hand-off \u2014 which of the four ways it failed to start. The detail lands in the Errors & Skips report, with the log either side of the playhead in the system log, so the next stall doesn't have to be reconstructed after the fact."
   }
 }
