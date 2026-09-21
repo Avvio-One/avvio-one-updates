@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.65",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.65/AvvioOne-0.5.65.zip",
-    "length": 16901838,
-    "signature": "bMgbUandCzn1QD3M3WEH9mEgvBl6CbMsDn5gDx2j2KBnQgM0trDBqKWChatcTPzojGAMs5gWFPi6DabRfA+HAA==",
-    "notes": "The AI Assistant now reaches the station's structure: it can read your clocks, the weekly schedule, segments and separations, and propose creating or editing a clock slot by slot, setting which clock airs in which hours, adding subcategories and separations, and building a log from the schedule or a clock. Everything still arrives as a card you press Apply on. Rebuilding a whole day is refused for today while the station is on air \u2014 it would replace the rows queued behind what's playing \u2014 so today can only be extended from the end."
+    "version": "0.5.66",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.66/AvvioOne-0.5.66.zip",
+    "length": 16914924,
+    "signature": "lWQxNQPpBd2/qh+7Y/gILYqjEmWNBLSbc2uI2A7QZbLOgrA3m4M6mz1ExzSulPTU49SKRCEslzKWy1cz0EzgCQ==",
+    "notes": "Fixes the weather-swap. Three bugs, found from the new Diagnostics trace: the top of the hour left the element it stepped over sitting pending in the log; a stall then recovered into that stranded row, airing it three quarters of an hour late and pushing the weather segment in behind it; and removing a segment from the on-air log removed only its container row, so the segment vanished from the screen and aired anyway. Elements dropped at the top of the hour now show in Errors and Skips with a reason."
   }
 }
