@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.63",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.63/AvvioOne-0.5.63.zip",
-    "length": 16671881,
-    "signature": "cHGpxaT6/BrmPx4f3WGm3Y+rD+p/qYyIc4MVAtd5RFpG3VG4svjfHm+/PbTMx4NymjEvZzIA5HksCxiLhPP5Bw==",
-    "notes": "New Settings > Diagnostics pane: every playback stall and dead-air failover is now recorded with the player's own trace of the minutes before it \u2014 engine state, what started and finished, what was armed for each hand-off, and every time the log changed under the playhead. Reports live in the station's database, so the on-air Mac's stalls can be read (and copied) from a production workstation."
+    "version": "0.5.64",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.64/AvvioOne-0.5.64.zip",
+    "length": 16687564,
+    "signature": "6slB0WAJzw0R1VvwZ4DRJRBORxgyxSHXSgBL8XKHU6Hh6ETylGtd1pJdZ9xlZUO9B8vF2BvPbXKYh6zOu2MPCw==",
+    "notes": "The log being rewritten while on air is now recorded in Settings > Diagnostics on its own \u2014 no stall needed. A queue that simply advanced is told apart from one that was rewritten (a queued row deleted without airing, a row inserted ahead of what was queued, or the order changed), and every automatic writer \u2014 regeneration, auto-fill, the safety net, the top-of-hour trim, a traffic rebuild, a skipped segment \u2014 now signs its work, so the report names what changed the log instead of leaving it open."
   }
 }
