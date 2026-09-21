@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.62",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.62/AvvioOne-0.5.62.zip",
-    "length": 16542212,
-    "signature": "ulmP5JooXpBDDbY/od4yAZTakPHo02F/+MhUBWYKixEcV0KtsKwsJq7pOHyFiJrKHT0A/t9hFwJqSIBRTK17Aw==",
-    "notes": "A playback stall now says why it happened: what was last on air, what came next, and \u2014 when a segment's talk-over bed was mid-hand-off \u2014 which of the four ways it failed to start. The detail lands in the Errors & Skips report, with the log either side of the playhead in the system log, so the next stall doesn't have to be reconstructed after the fact."
+    "version": "0.5.63",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.63/AvvioOne-0.5.63.zip",
+    "length": 16671881,
+    "signature": "cHGpxaT6/BrmPx4f3WGm3Y+rD+p/qYyIc4MVAtd5RFpG3VG4svjfHm+/PbTMx4NymjEvZzIA5HksCxiLhPP5Bw==",
+    "notes": "New Settings > Diagnostics pane: every playback stall and dead-air failover is now recorded with the player's own trace of the minutes before it \u2014 engine state, what started and finished, what was armed for each hand-off, and every time the log changed under the playhead. Reports live in the station's database, so the on-air Mac's stalls can be read (and copied) from a production workstation."
   }
 }
