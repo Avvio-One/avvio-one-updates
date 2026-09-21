@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.60",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.60/AvvioOne-0.5.60.zip",
-    "length": 16383455,
-    "signature": "Sm0hIKvA3/tVAEVX7+XjQ7VnJlR6/B+OQqvmPCJ1N5EEoAgqG8ftXampApwGeTWEJvstAoEVdhFvyxsXp0/rBw==",
-    "notes": "Settings \u25b8 Import & Export moves a station's programming to another Mac \u2014 library, subcategories, clocks, schedule, segments and separations, chosen section by section. The import only adds, leaves scheduled hours alone, and brings in library elements only when their audio is already on that Mac. Reports also show the rotation beside the category."
+    "version": "0.5.61",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.61/AvvioOne-0.5.61.zip",
+    "length": 16521789,
+    "signature": "1BbVIFASRbc8YVll42mpNdg90LKOPtD6RfAE98EwyGb1U1yKcQIJbInhEKpvVEFSXFWvf6reYICXIt0T4UQcBg==",
+    "notes": "Import & Export gains a preview before anything is written, plus an 'Add and update' mode that brings edits home from a copy you took away \u2014 and an opt-in Stream settings section that never carries the password and always arrives switched off. An element with no artist of its own (weather, sweepers, external audio) now shows the station's name instead of the off-air prompt; set it in Settings > General > Station."
   }
 }
