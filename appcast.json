@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.66",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.66/AvvioOne-0.5.66.zip",
-    "length": 16914924,
-    "signature": "lWQxNQPpBd2/qh+7Y/gILYqjEmWNBLSbc2uI2A7QZbLOgrA3m4M6mz1ExzSulPTU49SKRCEslzKWy1cz0EzgCQ==",
-    "notes": "Fixes the weather-swap. Three bugs, found from the new Diagnostics trace: the top of the hour left the element it stepped over sitting pending in the log; a stall then recovered into that stranded row, airing it three quarters of an hour late and pushing the weather segment in behind it; and removing a segment from the on-air log removed only its container row, so the segment vanished from the screen and aired anyway. Elements dropped at the top of the hour now show in Errors and Skips with a reason."
+    "version": "0.5.67",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.67/AvvioOne-0.5.67.zip",
+    "length": 17008629,
+    "signature": "WAf+Q8NkHk5m6DblBT5dGPAKFZWvliabI3sCUwLM3HcyznLRTQA5rBxrbC9CgqL9jUAuBng6FZxC5XWkDwhBDw==",
+    "notes": "This Mac can now run on the studio network or on its own database, and switch between them at the sign-in screen \u2014 both setups are remembered, so going back and forth never means running setup again. Settings > Network can copy the studio's station into this Mac's own database first, while you're still on the network; elements whose audio hasn't been brought across arrive flagged as missing and start playing on their own once it turns up."
   }
 }
