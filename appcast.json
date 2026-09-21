@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.64",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.64/AvvioOne-0.5.64.zip",
-    "length": 16687564,
-    "signature": "6slB0WAJzw0R1VvwZ4DRJRBORxgyxSHXSgBL8XKHU6Hh6ETylGtd1pJdZ9xlZUO9B8vF2BvPbXKYh6zOu2MPCw==",
-    "notes": "The log being rewritten while on air is now recorded in Settings > Diagnostics on its own \u2014 no stall needed. A queue that simply advanced is told apart from one that was rewritten (a queued row deleted without airing, a row inserted ahead of what was queued, or the order changed), and every automatic writer \u2014 regeneration, auto-fill, the safety net, the top-of-hour trim, a traffic rebuild, a skipped segment \u2014 now signs its work, so the report names what changed the log instead of leaving it open."
+    "version": "0.5.65",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.65/AvvioOne-0.5.65.zip",
+    "length": 16901838,
+    "signature": "bMgbUandCzn1QD3M3WEH9mEgvBl6CbMsDn5gDx2j2KBnQgM0trDBqKWChatcTPzojGAMs5gWFPi6DabRfA+HAA==",
+    "notes": "The AI Assistant now reaches the station's structure: it can read your clocks, the weekly schedule, segments and separations, and propose creating or editing a clock slot by slot, setting which clock airs in which hours, adding subcategories and separations, and building a log from the schedule or a clock. Everything still arrives as a card you press Apply on. Rebuilding a whole day is refused for today while the station is on air \u2014 it would replace the rows queued behind what's playing \u2014 so today can only be extended from the end."
   }
 }
