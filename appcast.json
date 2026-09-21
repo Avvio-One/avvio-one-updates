@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.59",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.59/AvvioOne-0.5.59.zip",
-    "length": 16190258,
-    "signature": "NITw5fJHBSZzn+xshSblEL4d5MnM5NkxQWZuuBJXTv51SXCq3aW4DTdSS4wvuhJUhRvgrorMRCyORFXTNwlUAw==",
-    "notes": "Settings \u25b8 Audio \u25b8 Loudness gains Re-measure All, for audio that changed on disk outside Avvio \u2014 a library normalised on another machine and copied back. It discards every stored loudness figure and measures again, with progress, while the station stays on air."
+    "version": "0.5.60",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.60/AvvioOne-0.5.60.zip",
+    "length": 16383455,
+    "signature": "Sm0hIKvA3/tVAEVX7+XjQ7VnJlR6/B+OQqvmPCJ1N5EEoAgqG8ftXampApwGeTWEJvstAoEVdhFvyxsXp0/rBw==",
+    "notes": "Settings \u25b8 Import & Export moves a station's programming to another Mac \u2014 library, subcategories, clocks, schedule, segments and separations, chosen section by section. The import only adds, leaves scheduled hours alone, and brings in library elements only when their audio is already on that Mac. Reports also show the rotation beside the category."
   }
 }
