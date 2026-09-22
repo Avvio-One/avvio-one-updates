@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.67",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.67/AvvioOne-0.5.67.zip",
-    "length": 17008629,
-    "signature": "WAf+Q8NkHk5m6DblBT5dGPAKFZWvliabI3sCUwLM3HcyznLRTQA5rBxrbC9CgqL9jUAuBng6FZxC5XWkDwhBDw==",
-    "notes": "This Mac can now run on the studio network or on its own database, and switch between them at the sign-in screen \u2014 both setups are remembered, so going back and forth never means running setup again. Settings > Network can copy the studio's station into this Mac's own database first, while you're still on the network; elements whose audio hasn't been brought across arrive flagged as missing and start playing on their own once it turns up."
+    "version": "0.5.68",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.68/AvvioOne-0.5.68.zip",
+    "length": 17009621,
+    "signature": "QezUploMsCnpr0Oz7NG5O8xnKSkgP3AUIglUnsSiEopZakwtnBlybXYd08IsnIfvx/aUlzwX3u7ytl991fk5DA==",
+    "notes": "The log now keeps the whole day. Logs shows it as scheduled from midnight on, with what has aired marked; On Air shows what's left to play, dropping each element as it finishes \u2014 one log, two views of it. Elements dropped at the top of the hour are marked and written to Errors and Skips rather than deleted, so the Logs screen shows the day as it was built and always agrees with the Played report. Settings > General's 'Keep aired items in the log' switch is gone; it is simply how the log works."
   }
 }
