@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.71",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.71/AvvioOne-0.5.71.zip",
-    "length": 17056369,
-    "signature": "3WLVNm/TynLsfW9+aJyynHMSvdbw2SBOBkoTJEzSuowgBHo35DA0PebStm29AkFHf3sRqvjX9HnwSagUk2iKDQ==",
-    "notes": "Settings is reorganised: eight groups instead of one long list, ordered by what you're looking for \u2014 Station, Programming, Audio, Incoming, On Air, Remote, Data, App. External, FTP, Online, URL and Auto-Import are now a single Audio Sources pane with a picker. A search field finds a pane by name or by what it does, so 'gpio' finds Triggers and 'icecast' finds Streaming."
+    "version": "0.5.72",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.72/AvvioOne-0.5.72.zip",
+    "length": 17056389,
+    "signature": "SSd6W7l3NbrTCkjHZskFkCYS6fknQwhoy2Zzz2kwSDFAndpes/ooLNMi7WzM5CN3stc7bLCP4TDeDwR2n4unAw==",
+    "notes": "Settings: Traffic now sits in its own group rather than under Programming."
   }
 }
