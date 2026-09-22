@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.70",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.70/AvvioOne-0.5.70.zip",
-    "length": 17023194,
-    "signature": "cAqQR0ayKjwGQoqM24lNMjqB05xF5kU2Po4jffhGXPxizmAgTSMHGf1B8EpwAG8zpUX18PBwvCKp7KWZjqePDw==",
-    "notes": "A Mac that is actively streaming can no longer be switched to another station: switching relaunches onto a different station and would take this one off the air mid-broadcast, so it is refused until you turn off 'Stream on-air output' in Settings > Streaming. Every station switch now states plainly that only one station runs at a time and switching stops this one playing, streaming and logging."
+    "version": "0.5.71",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.71/AvvioOne-0.5.71.zip",
+    "length": 17056369,
+    "signature": "3WLVNm/TynLsfW9+aJyynHMSvdbw2SBOBkoTJEzSuowgBHo35DA0PebStm29AkFHf3sRqvjX9HnwSagUk2iKDQ==",
+    "notes": "Settings is reorganised: eight groups instead of one long list, ordered by what you're looking for \u2014 Station, Programming, Audio, Incoming, On Air, Remote, Data, App. External, FTP, Online, URL and Auto-Import are now a single Audio Sources pane with a picker. A search field finds a pane by name or by what it does, so 'gpio' finds Triggers and 'icecast' finds Streaming."
   }
 }
