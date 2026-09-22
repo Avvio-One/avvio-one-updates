@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.68",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.68/AvvioOne-0.5.68.zip",
-    "length": 17009621,
-    "signature": "QezUploMsCnpr0Oz7NG5O8xnKSkgP3AUIglUnsSiEopZakwtnBlybXYd08IsnIfvx/aUlzwX3u7ytl991fk5DA==",
-    "notes": "The log now keeps the whole day. Logs shows it as scheduled from midnight on, with what has aired marked; On Air shows what's left to play, dropping each element as it finishes \u2014 one log, two views of it. Elements dropped at the top of the hour are marked and written to Errors and Skips rather than deleted, so the Logs screen shows the day as it was built and always agrees with the Played report. Settings > General's 'Keep aired items in the log' switch is gone; it is simply how the log works."
+    "version": "0.5.69",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.69/AvvioOne-0.5.69.zip",
+    "length": 17007735,
+    "signature": "PAIvdxC0RBFenYYKKq88iovq3/Z+kOUZ/5ohKqgYo/VNgQk2MVJSNByQfj/5XXxW4QQ1pl+woc7J7qFsjl+ZAQ==",
+    "notes": "Stream settings now belong to the station rather than the Mac: a second station on the same machine no longer inherits the first one's server, mount and password. Your existing station keeps its settings exactly as they are."
   }
 }
