@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.72",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.72/AvvioOne-0.5.72.zip",
-    "length": 17056389,
-    "signature": "SSd6W7l3NbrTCkjHZskFkCYS6fknQwhoy2Zzz2kwSDFAndpes/ooLNMi7WzM5CN3stc7bLCP4TDeDwR2n4unAw==",
-    "notes": "Settings: Traffic now sits in its own group rather than under Programming."
+    "version": "0.5.73",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.73/AvvioOne-0.5.73.zip",
+    "length": 17055939,
+    "signature": "a+qRCylTw1u8jZuTZEDMbif0++BX4If4VLsyrR7wGg+2UBcIcsvmy2CGMyCjdzhHIjYDH9euRXS9587WXTjHBg==",
+    "notes": "Settings: the Traffic group's row is now \"Commercial Categories\"."
   }
 }
