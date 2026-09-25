@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.73",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.73/AvvioOne-0.5.73.zip",
-    "length": 17055939,
-    "signature": "a+qRCylTw1u8jZuTZEDMbif0++BX4If4VLsyrR7wGg+2UBcIcsvmy2CGMyCjdzhHIjYDH9euRXS9587WXTjHBg==",
-    "notes": "Settings: the Traffic group's row is now \"Commercial Categories\"."
+    "version": "0.5.74",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.74/AvvioOne-0.5.74.zip",
+    "length": 17204515,
+    "signature": "6prbc8RKcsOPIIOk+XCt603RI+Go+LKIb2HVxnXyc9pNqga9oHiQAD4q3OKJdevGyZPKxboKYuYzL18E0HdyCA==",
+    "notes": "Scheduling: songs no longer return too soon across midnight, and the rotation stops walking the same running order day after day.\n\n\u2022 Tomorrow's log now knows what tonight is still going to play. Logs are built at 9 PM, before the 9-to-midnight airplay happens, and the scheduler was blind to it \u2014 which is why almost every early repeat landed just after midnight.\n\u2022 Two records that merely share a title (\"Suddenly\" by Billy Ocean and by Olivia Newton-John) count as different songs now, so neither blocks the other.\n\u2022 A song cut off at the top of the hour no longer counts as having aired.\n\u2022 The top-of-hour filler checks separation and rest instead of always reaching for the shortest song it could find.\n\u2022 Selection picks among the best-rested few rather than always the single most-rested, so identical rules stop producing identical days. Settings \u25b8 Scheduling \u25b8 Variety \u2014 set \"Choose among\" to \"Best rested only\" for the previous behaviour.\n\u2022 New in Settings \u25b8 Scheduling: rotation-pressure notes in the log report (whether a rotation is big enough for what your clocks ask of it), and an optional recording of why each song was chosen.\n\u2022 Log generation is about 5.5x faster.\n\u2022 The Assistant's message box no longer freezes when a long prompt is pasted into it."
   }
 }
