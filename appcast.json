@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.74",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.74/AvvioOne-0.5.74.zip",
-    "length": 17204515,
-    "signature": "6prbc8RKcsOPIIOk+XCt603RI+Go+LKIb2HVxnXyc9pNqga9oHiQAD4q3OKJdevGyZPKxboKYuYzL18E0HdyCA==",
-    "notes": "Scheduling: songs no longer return too soon across midnight, and the rotation stops walking the same running order day after day.\n\n\u2022 Tomorrow's log now knows what tonight is still going to play. Logs are built at 9 PM, before the 9-to-midnight airplay happens, and the scheduler was blind to it \u2014 which is why almost every early repeat landed just after midnight.\n\u2022 Two records that merely share a title (\"Suddenly\" by Billy Ocean and by Olivia Newton-John) count as different songs now, so neither blocks the other.\n\u2022 A song cut off at the top of the hour no longer counts as having aired.\n\u2022 The top-of-hour filler checks separation and rest instead of always reaching for the shortest song it could find.\n\u2022 Selection picks among the best-rested few rather than always the single most-rested, so identical rules stop producing identical days. Settings \u25b8 Scheduling \u25b8 Variety \u2014 set \"Choose among\" to \"Best rested only\" for the previous behaviour.\n\u2022 New in Settings \u25b8 Scheduling: rotation-pressure notes in the log report (whether a rotation is big enough for what your clocks ask of it), and an optional recording of why each song was chosen.\n\u2022 Log generation is about 5.5x faster.\n\u2022 The Assistant's message box no longer freezes when a long prompt is pasted into it."
+    "version": "0.5.75",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.75/AvvioOne-0.5.75.zip",
+    "length": 17204999,
+    "signature": "fd3z8q2Hh2622R0E4bdxaY7a06aa+ftam8xAGHMdoT3faAxRRCjj75QLVrBbyQ1/7G5jCjxfsHXppYWh60g/Cw==",
+    "notes": "Fixes the Software Update pane showing an out-of-date release.\n\n\u2022 The pane checked for updates only once per launch, so a Mac left running for weeks kept showing whatever was true the first time it was opened \u2014 which is how a station five releases behind reported only one available. It now checks each time you open it.\n\u2022 A check is never started while an update is downloading or installing.\n\nIncludes everything in v0.5.74: the scheduling fixes for songs returning too soon across midnight, song identity, rotation variety, the new Variety and Diagnostics settings, and faster log generation."
   }
 }
