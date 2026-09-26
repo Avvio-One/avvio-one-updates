@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.75",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.75/AvvioOne-0.5.75.zip",
-    "length": 17204999,
-    "signature": "fd3z8q2Hh2622R0E4bdxaY7a06aa+ftam8xAGHMdoT3faAxRRCjj75QLVrBbyQ1/7G5jCjxfsHXppYWh60g/Cw==",
-    "notes": "Fixes the Software Update pane showing an out-of-date release.\n\n\u2022 The pane checked for updates only once per launch, so a Mac left running for weeks kept showing whatever was true the first time it was opened \u2014 which is how a station five releases behind reported only one available. It now checks each time you open it.\n\u2022 A check is never started while an update is downloading or installing.\n\nIncludes everything in v0.5.74: the scheduling fixes for songs returning too soon across midnight, song identity, rotation variety, the new Variety and Diagnostics settings, and faster log generation."
+    "version": "0.5.76",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.76/AvvioOne-0.5.76.zip",
+    "length": 17206412,
+    "signature": "t5bts83CGHPitOO0B1jZbJPR7InpA6wAZByn3d98oYd9OkOzWzG1T2SSrcNX7C4OWDM7flBu26FHcTEieB0SDw==",
+    "notes": "Fixes the Song Airplay report and the song that kept turning up at :58.\n\n\u2022 Song Airplay listed elements that never actually aired \u2014 a song cut off at the top of the hour left a timestamp in the report as though a listener had heard it. The report now lists real airings only, and one that was cut short shows how much of it went out.\n\u2022 The top-of-hour filler kept reaching for the same record. When the gap is too small for any song to fit, it was picking purely by which song would be trimmed least \u2014 which is the shortest song in the rotation, every hour. It now treats close overshoots as equally good and takes the one that has rested longest. Separation still comes first.\n\nA fill rotation used to plug a two-minute hole will always lean on its shorter songs; adding a few more short-to-mid-length records to it spreads the load further."
   }
 }
