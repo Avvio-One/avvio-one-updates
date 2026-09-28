@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.76",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.76/AvvioOne-0.5.76.zip",
-    "length": 17206412,
-    "signature": "t5bts83CGHPitOO0B1jZbJPR7InpA6wAZByn3d98oYd9OkOzWzG1T2SSrcNX7C4OWDM7flBu26FHcTEieB0SDw==",
-    "notes": "Fixes the Song Airplay report and the song that kept turning up at :58.\n\n\u2022 Song Airplay listed elements that never actually aired \u2014 a song cut off at the top of the hour left a timestamp in the report as though a listener had heard it. The report now lists real airings only, and one that was cut short shows how much of it went out.\n\u2022 The top-of-hour filler kept reaching for the same record. When the gap is too small for any song to fit, it was picking purely by which song would be trimmed least \u2014 which is the shortest song in the rotation, every hour. It now treats close overshoots as equally good and takes the one that has rested longest. Separation still comes first.\n\nA fill rotation used to plug a two-minute hole will always lean on its shorter songs; adding a few more short-to-mid-length records to it spreads the load further."
+    "version": "0.5.77",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.77/AvvioOne-0.5.77.zip",
+    "length": 17226805,
+    "signature": "01tkeoctigrfbO3e8SwL713ykV0P8qJiXnZM6tY+uqhYjD4y3UY2jWwvDEQGjxC99X3Ff54EszeLdGHJX18xDA==",
+    "notes": "Adds Play Info to the log screens.\n\n\u2022 Right-click any music row in the On Air log or the Logs screen and choose Play Info to see that song's Scheduled Ahead and Past Airings \u2014 the same information as the Song Airplay report, without leaving the log and typing the title back in.\n\u2022 Rows with no song behind them \u2014 voice tracks, stop markers, external audio by name \u2014 don't offer it.\n\nIncludes everything in v0.5.76: the Song Airplay report listing real airings only, and the top-of-hour filler no longer favouring one record."
   }
 }
