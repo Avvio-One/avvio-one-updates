@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.77",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.77/AvvioOne-0.5.77.zip",
-    "length": 17226805,
-    "signature": "01tkeoctigrfbO3e8SwL713ykV0P8qJiXnZM6tY+uqhYjD4y3UY2jWwvDEQGjxC99X3Ff54EszeLdGHJX18xDA==",
-    "notes": "Adds Play Info to the log screens.\n\n\u2022 Right-click any music row in the On Air log or the Logs screen and choose Play Info to see that song's Scheduled Ahead and Past Airings \u2014 the same information as the Song Airplay report, without leaving the log and typing the title back in.\n\u2022 Rows with no song behind them \u2014 voice tracks, stop markers, external audio by name \u2014 don't offer it.\n\nIncludes everything in v0.5.76: the Song Airplay report listing real airings only, and the top-of-hour filler no longer favouring one record."
+    "version": "0.5.78",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.78/AvvioOne-0.5.78.zip",
+    "length": 17227441,
+    "signature": "MWTQEWaG6zqi6YnAzQPUCyPvYgKcOBVmb/zAX+VM4tfTYtgnh5YF2hUktGJqYVifLdssK8VXygyGkkuWYLneCA==",
+    "notes": "Log rows respond to a double-click, and Play Info moves under Edit Metadata.\n\n\u2022 Double-click a song in the On Air log or the Logs screen to open its metadata editor. Voice tracks and external audio still open what they always did.\n\u2022 Play Info now sits below Edit Metadata in the right-click menu.\n\nIncludes everything in v0.5.77: Play Info on a log row, the Song Airplay report listing real airings only, and the top-of-hour filler no longer favouring one record."
   }
 }
