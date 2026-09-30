@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.78",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.78/AvvioOne-0.5.78.zip",
-    "length": 17227441,
-    "signature": "MWTQEWaG6zqi6YnAzQPUCyPvYgKcOBVmb/zAX+VM4tfTYtgnh5YF2hUktGJqYVifLdssK8VXygyGkkuWYLneCA==",
-    "notes": "Log rows respond to a double-click, and Play Info moves under Edit Metadata.\n\n\u2022 Double-click a song in the On Air log or the Logs screen to open its metadata editor. Voice tracks and external audio still open what they always did.\n\u2022 Play Info now sits below Edit Metadata in the right-click menu.\n\nIncludes everything in v0.5.77: Play Info on a log row, the Song Airplay report listing real airings only, and the top-of-hour filler no longer favouring one record."
+    "version": "0.5.79",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.79/AvvioOne-0.5.79.zip",
+    "length": 17243233,
+    "signature": "lhRkZfXWSJKxDyYsOjw2Q4U3tZ0qvh+9VmOQoq+mvO0qop6XSLhJTyjOvmp6uCMmvkYnAMxkUM/KaPxHseuEDg==",
+    "notes": "Song separation now holds cover versions apart.\n\n\u2022 Songs recorded by two artists \u2014 \"Drift Away\" by Dobie Gray and by Uncle Kracker, \"Brown Eyed Girl\" by Van Morrison and by Jimmy Buffett \u2014 were not being held apart. Seven simulated days over the station's library put fourteen such pairs inside the three-hour song rule, one of them 36 minutes. Now none.\n\u2022 Two records with the same title count as one song. Where that's a coincidence rather than a cover \u2014 Fleetwood Mac's \"Dreams\" and The Cranberries' \u2014 list the title under Settings \u25b8 Separations \u25b8 \"Different Songs, Same Name\" and they stop blocking each other. The same artist's own versions are still held apart either way.\n\u2022 The top-of-hour filler and the log generator now apply the same rule.\n\nWorth doing once after updating: open Settings \u25b8 Separations and add the titles your library shares by coincidence, so those songs return to full rotation."
   }
 }
