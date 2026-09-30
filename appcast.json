@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.79",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.79/AvvioOne-0.5.79.zip",
-    "length": 17243233,
-    "signature": "lhRkZfXWSJKxDyYsOjw2Q4U3tZ0qvh+9VmOQoq+mvO0qop6XSLhJTyjOvmp6uCMmvkYnAMxkUM/KaPxHseuEDg==",
-    "notes": "Song separation now holds cover versions apart.\n\n\u2022 Songs recorded by two artists \u2014 \"Drift Away\" by Dobie Gray and by Uncle Kracker, \"Brown Eyed Girl\" by Van Morrison and by Jimmy Buffett \u2014 were not being held apart. Seven simulated days over the station's library put fourteen such pairs inside the three-hour song rule, one of them 36 minutes. Now none.\n\u2022 Two records with the same title count as one song. Where that's a coincidence rather than a cover \u2014 Fleetwood Mac's \"Dreams\" and The Cranberries' \u2014 list the title under Settings \u25b8 Separations \u25b8 \"Different Songs, Same Name\" and they stop blocking each other. The same artist's own versions are still held apart either way.\n\u2022 The top-of-hour filler and the log generator now apply the same rule.\n\nWorth doing once after updating: open Settings \u25b8 Separations and add the titles your library shares by coincidence, so those songs return to full rotation."
+    "version": "0.5.80",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.80/AvvioOne-0.5.80.zip",
+    "length": 17260133,
+    "signature": "Khhqbssv7tpL/dpqbYChjvCuHo5F3J8q0XQsF35O7/Id9iwLZAAh2tBvzzR8/FdXHSEvZESIXpt6fzxz0twbCQ==",
+    "notes": "Adds Delete and Trash to the library, and lets the assistant see file names.\n\n\u2022 Right-click one or many selected carts in the Library for \"Delete and Trash\": the carts are removed AND their audio files go to the Finder Trash, where Put Back restores them if you change your mind. Admin accounts only.\n\u2022 Anything playing, lined up next, or under a talk-over is left completely alone \u2014 both its cart and its file. A file that can't be trashed keeps its cart, and everything skipped is reported rather than removed quietly.\n\u2022 The assistant can now see and search each element's audio file name, so asking it about duplicate imports \u2014 the ones ending \"(2).mp3\" \u2014 finds them.\n\nIncludes everything in v0.5.79: cover-version separation, Play Info on log rows, double-click to edit metadata, and the top-of-hour filler fix."
   }
 }
