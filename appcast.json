@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.85",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.85/AvvioOne-0.5.85.zip",
-    "length": 17340679,
-    "signature": "+j+dkIyIres2+Z23dUdBHbpyWW14Rb1v1upkTgpHfaZpdba9OXX2C0g5qgOhQt0p3XMk3PXdk11aPV6h0UMyBw==",
-    "notes": "Traffic: Edit and Delete on every commercial row, and :90 / :120 spot lengths.\n\n\u2022 Each commercial row now carries its own Edit and Delete buttons. Delete asks for confirmation exactly as before \u2014 double-click still opens the editor, and the buttons under the list still work on the selection.\n\u2022 Nominal length now offers :90 and :120 alongside :10, :15, :30 and :60. Nominal is a label for selling and reporting; breaks are still packed by each spot's actual measured length.\n\nIncludes v0.5.84: Replace Audio no longer takes a file that another element is using."
+    "version": "0.5.86",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.86/AvvioOne-0.5.86.zip",
+    "length": 17358836,
+    "signature": "nKMIesGvBPL4bIV55cc+YbyBcPK7cyxtrfMwwjsqMiCOqzAED8q2dNzJa+UQNw3ztGCLIa/UDhlBljpbXy/VDw==",
+    "notes": "Play a commercial straight from its row in Traffic.\n\n\u2022 Each commercial row now has a play/stop button alongside Edit and Delete. It plays through your monitor output, never the program output, on a separate audio engine from the decks \u2014 auditioning a spot can't reach air.\n\u2022 A spot with no audio linked shows the button disabled rather than offering a play that would do nothing, and leaving the Commercials list stops any preview.\n\nIncludes v0.5.85: Edit and Delete on every commercial row, and :90 / :120 nominal lengths."
   }
 }
