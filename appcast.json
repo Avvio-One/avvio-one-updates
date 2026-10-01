@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.82",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.82/AvvioOne-0.5.82.zip",
-    "length": 17326016,
-    "signature": "m1DQrQstDjQY+LPRWvjd+02vuM7LWefBaT6+fmjG9KMi5foJMNQtLacI7514FFQH0gvwn6d3cbfxhK9oo0cYAA==",
-    "notes": "Fixes Replace Audio when the old file has already been removed.\n\n\u2022 Replacing a batch by deleting the old files first, dropping the replacements into the station folder and then using Replace Audio did not work: the element kept pointing at the old, now-missing path while the new audio sat unused. Nothing to trash is no longer treated as a failure.\n\u2022 If the old file IS still there and genuinely can't be moved to the Trash, the replacement still rolls back, so you're never left with two files and an element pointing at the wrong one.\n\nIncludes everything in v0.5.81: sortable Library columns and the warning when an element loses its audio file."
+    "version": "0.5.83",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.83/AvvioOne-0.5.83.zip",
+    "length": 17326890,
+    "signature": "vE+J08OyxttLSLAG/71goVChm7v/AvW3Z0FwtANikBfVV8FnrlH3oPUmZzeOX4qkxQ5pY1j/bdN75Mm9AxUKBg==",
+    "notes": "Replacing audio with a file already in the station folder no longer duplicates it.\n\n\u2022 When the replacement you pick is already inside Avvio's audio folders \u2014 culling duplicates, for instance \u2014 it is now renamed into place rather than copied, so the same audio no longer ends up in the folder twice under two names.\n\u2022 Picking a replacement from anywhere else (a Downloads folder, a drive) still copies it, so your own file is never moved or taken away.\n\u2022 If the rename can't be completed, the file is put back exactly where you picked it from.\n\nIncludes v0.5.82: Replace Audio working when the old file has already been removed."
   }
 }
