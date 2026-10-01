@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.81",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.81/AvvioOne-0.5.81.zip",
-    "length": 17325850,
-    "signature": "DXgxBxhkhYeNvW4dORU2ed3zLYjRIQ26YvZmy5iHcKv8GV5+Jf55ceIKIFtSUUKd/jg2M1bhC3zA3ldBThAKCQ==",
-    "notes": "Sortable Library columns, and a warning when an element loses its audio file.\n\n\u2022 Click any column heading in the Library to sort by it \u2014 Title / Artist, Category, Subcategory or Length \u2014 and click again to reverse. Blanks sort last whichever way the arrow points, and titles break every tie, so a category reads alphabetically inside itself.\n\u2022 The Library now warns when an element's audio file has been moved or deleted outside Avvio: a strip across the top with \"Show These\" to see which, and the affected rows marked. It appears without a relaunch and clears itself when the file is put back.\n\u2022 Elements on an unmounted drive are not counted as missing \u2014 that's a different problem with a different fix.\n\nIncludes everything in v0.5.80: Delete and Trash in the Library (admin accounts), the assistant seeing audio file names, and cover-version separation."
+    "version": "0.5.82",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.82/AvvioOne-0.5.82.zip",
+    "length": 17326016,
+    "signature": "m1DQrQstDjQY+LPRWvjd+02vuM7LWefBaT6+fmjG9KMi5foJMNQtLacI7514FFQH0gvwn6d3cbfxhK9oo0cYAA==",
+    "notes": "Fixes Replace Audio when the old file has already been removed.\n\n\u2022 Replacing a batch by deleting the old files first, dropping the replacements into the station folder and then using Replace Audio did not work: the element kept pointing at the old, now-missing path while the new audio sat unused. Nothing to trash is no longer treated as a failure.\n\u2022 If the old file IS still there and genuinely can't be moved to the Trash, the replacement still rolls back, so you're never left with two files and an element pointing at the wrong one.\n\nIncludes everything in v0.5.81: sortable Library columns and the warning when an element loses its audio file."
   }
 }
