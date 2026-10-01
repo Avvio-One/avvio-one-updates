@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.86",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.86/AvvioOne-0.5.86.zip",
-    "length": 17358836,
-    "signature": "nKMIesGvBPL4bIV55cc+YbyBcPK7cyxtrfMwwjsqMiCOqzAED8q2dNzJa+UQNw3ztGCLIa/UDhlBljpbXy/VDw==",
-    "notes": "Play a commercial straight from its row in Traffic.\n\n\u2022 Each commercial row now has a play/stop button alongside Edit and Delete. It plays through your monitor output, never the program output, on a separate audio engine from the decks \u2014 auditioning a spot can't reach air.\n\u2022 A spot with no audio linked shows the button disabled rather than offering a play that would do nothing, and leaving the Commercials list stops any preview.\n\nIncludes v0.5.85: Edit and Delete on every commercial row, and :90 / :120 nominal lengths."
+    "version": "0.5.87",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.87/AvvioOne-0.5.87.zip",
+    "length": 17361838,
+    "signature": "OQTkQrO5UIAkoe5wfqzqYpL8Ebu+mmyiGzArnEiL4xq4qesd1Etdxh/yRFUz4vEo8gG0TCklnc+mhXbtAlxvCA==",
+    "notes": "Records what the audio engine does at each hand-off, to catch the intermittent late start.\n\n\u2022 Diagnostic only \u2014 nothing about playback changes. Each transition now logs the timing the engine used, and how far into an element it already was at the moment it became audible. That second number is what you hear: zero is correct, anything else is how much of the start was missed.\n\u2022 A bad one is logged as an error saying the start of the element was not heard, so it can be found after the fact instead of reconstructed from memory.\n\nTo read it:\n  /usr/bin/log show --predicate 'subsystem == \"com.skyrocketradio.AvvioOne\"' --last 2h --debug --info --style compact | grep handoff\n\nIncludes v0.5.86: play a commercial from its row in Traffic."
   }
 }
