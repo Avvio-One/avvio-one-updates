@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.87",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.87/AvvioOne-0.5.87.zip",
-    "length": 17361838,
-    "signature": "OQTkQrO5UIAkoe5wfqzqYpL8Ebu+mmyiGzArnEiL4xq4qesd1Etdxh/yRFUz4vEo8gG0TCklnc+mhXbtAlxvCA==",
-    "notes": "Records what the audio engine does at each hand-off, to catch the intermittent late start.\n\n\u2022 Diagnostic only \u2014 nothing about playback changes. Each transition now logs the timing the engine used, and how far into an element it already was at the moment it became audible. That second number is what you hear: zero is correct, anything else is how much of the start was missed.\n\u2022 A bad one is logged as an error saying the start of the element was not heard, so it can be found after the fact instead of reconstructed from memory.\n\nTo read it:\n  /usr/bin/log show --predicate 'subsystem == \"com.skyrocketradio.AvvioOne\"' --last 2h --debug --info --style compact | grep handoff\n\nIncludes v0.5.86: play a commercial from its row in Traffic."
+    "version": "0.5.88",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.88/AvvioOne-0.5.88.zip",
+    "length": 17441128,
+    "signature": "apfjNW+1dKS1hN+HZLs62W0zKxSZyVzJfrFZo2ynIAcGBcyeGfMvsg8LjMCnlVf21QiM+kyFqbPnN1FbIH/vCw==",
+    "notes": "Clean up spot audio that nothing uses.\n\n\u2022 Deleting a commercial now offers to move its audio file to the Trash as well \u2014 but only when no other spot uses that file, and only for admin accounts. The confirmation tells you which case applies, so you always know whether the file is going.\n\u2022 New in Traffic \u25b8 Commercials: \"Unused Spot Audio\u2026\" lists every spot asset no commercial points at, with an option to move them all to the Trash. It only reads until you ask, so it is safe to look first.\n\u2022 Both skip anything playing, armed, or under a talk-over, and both use the Finder Trash, so Put Back restores a file you change your mind about.\n\nWorth running once after updating to see what has accumulated from past deletions.\n\nIncludes v0.5.87: hand-off diagnostics for the intermittent late start."
   }
 }
