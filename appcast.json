@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.92",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.92/AvvioOne-0.5.92.zip",
-    "length": 17557507,
-    "signature": "9yPF0K0eO+PQj7GamdTVUZVCgKeUe3fyp9CQmRXm9glMgtwMK9ll3QR1RdgqhmiEgmm5G0qZu0SUqPQmY9MXDg==",
-    "notes": "Fixes the Segments screen: selecting a segment highlighted the row but left the editor on 'No Segment Selected', and a newly added segment never opened for editing. The pane now follows the saved list as well as the selection."
+    "version": "0.5.93",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.93/AvvioOne-0.5.93.zip",
+    "length": 17558455,
+    "signature": "5m1kc85B+JmxPrbA2H4ccRLifkULsWFtWHe5WfN8wlvZ809wyxY6FMpagbLPjWQ6PxH2j4NxkgZOwBZDKAmAAA==",
+    "notes": "Fixes the On Air log during a Structured Audio segment: the segment's row stayed scrolled off the top while it played, so the list showed the songs after it instead of the element on air. The row now stays in view with the red ON AIR band for the whole segment."
   }
 }
