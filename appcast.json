@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.93",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.93/AvvioOne-0.5.93.zip",
-    "length": 17558455,
-    "signature": "5m1kc85B+JmxPrbA2H4ccRLifkULsWFtWHe5WfN8wlvZ809wyxY6FMpagbLPjWQ6PxH2j4NxkgZOwBZDKAmAAA==",
-    "notes": "Fixes the On Air log during a Structured Audio segment: the segment's row stayed scrolled off the top while it played, so the list showed the songs after it instead of the element on air. The row now stays in view with the red ON AIR band for the whole segment."
+    "version": "0.5.94",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.94/AvvioOne-0.5.94.zip",
+    "length": 17558485,
+    "signature": "TdpaeUY6hN0Okb5Izzydc3rL4WFMvjnW64N/cty2PfSdHOzcs/7AGFKwaZ5NXsbMsD23M0fRM38CGXvOXsbqCA==",
+    "notes": "Elements now always hand over at the segue cue. A song whose intro was under a second used to hold the element before it all the way to its end, so reordering the log could cost the song that was playing its segue and crossfade. Cue points are now always respected. Note that categories set to not fade at the segue (imaging, sweepers, jingles, legal IDs and promos by default) hold full volume through their tail \u2014 change that per category in Settings, Audio."
   }
 }
