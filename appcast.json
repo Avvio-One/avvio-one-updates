@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.89",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.89/AvvioOne-0.5.89.zip",
-    "length": 17455189,
-    "signature": "lwekyiIyJLnoTLShY/0OiXd35L62bAcvqhx4S1deJ/e9NtM5nYWuCnghcGrvkhEH9bTYhoEej93GrEqiT2wWAQ==",
-    "notes": "Spot audio is now copied into the station's Commercials folder on import, instead of being played from wherever it was picked up. Every audio editor \u2014 library, commercials, and structured-audio segments \u2014 now shows the file's location, with Copy Path and Show in Finder, and warns when audio that should be filed is sitting somewhere else."
+    "version": "0.5.90",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.90/AvvioOne-0.5.90.zip",
+    "length": 17492094,
+    "signature": "6i2Ou+dXILi9QtrJujPnoiWI19H63moRsq9CEzFMlT1hl7ZI8712L0FuYKaf8vyB3RbVk1f0V9tsYq82GbGqCQ==",
+    "notes": "The Commercials list now shows each spot's audio location, flagged in orange when the file sits outside the station audio folder. Right-click a spot for Edit, Play in Monitor, Show in Finder, Copy Audio Path, Delete, and Delete and Trash Audio. Trashing a spot's audio now refuses programming items: a commercial pointing at a song can no longer take that song out of the library."
   }
 }
