@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.88",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.88/AvvioOne-0.5.88.zip",
-    "length": 17441128,
-    "signature": "apfjNW+1dKS1hN+HZLs62W0zKxSZyVzJfrFZo2ynIAcGBcyeGfMvsg8LjMCnlVf21QiM+kyFqbPnN1FbIH/vCw==",
-    "notes": "Clean up spot audio that nothing uses.\n\n\u2022 Deleting a commercial now offers to move its audio file to the Trash as well \u2014 but only when no other spot uses that file, and only for admin accounts. The confirmation tells you which case applies, so you always know whether the file is going.\n\u2022 New in Traffic \u25b8 Commercials: \"Unused Spot Audio\u2026\" lists every spot asset no commercial points at, with an option to move them all to the Trash. It only reads until you ask, so it is safe to look first.\n\u2022 Both skip anything playing, armed, or under a talk-over, and both use the Finder Trash, so Put Back restores a file you change your mind about.\n\nWorth running once after updating to see what has accumulated from past deletions.\n\nIncludes v0.5.87: hand-off diagnostics for the intermittent late start."
+    "version": "0.5.89",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.89/AvvioOne-0.5.89.zip",
+    "length": 17455189,
+    "signature": "lwekyiIyJLnoTLShY/0OiXd35L62bAcvqhx4S1deJ/e9NtM5nYWuCnghcGrvkhEH9bTYhoEej93GrEqiT2wWAQ==",
+    "notes": "Spot audio is now copied into the station's Commercials folder on import, instead of being played from wherever it was picked up. Every audio editor \u2014 library, commercials, and structured-audio segments \u2014 now shows the file's location, with Copy Path and Show in Finder, and warns when audio that should be filed is sitting somewhere else."
   }
 }
