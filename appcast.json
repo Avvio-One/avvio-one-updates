@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.90",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.90/AvvioOne-0.5.90.zip",
-    "length": 17492094,
-    "signature": "6i2Ou+dXILi9QtrJujPnoiWI19H63moRsq9CEzFMlT1hl7ZI8712L0FuYKaf8vyB3RbVk1f0V9tsYq82GbGqCQ==",
-    "notes": "The Commercials list now shows each spot's audio location, flagged in orange when the file sits outside the station audio folder. Right-click a spot for Edit, Play in Monitor, Show in Finder, Copy Audio Path, Delete, and Delete and Trash Audio. Trashing a spot's audio now refuses programming items: a commercial pointing at a song can no longer take that song out of the library."
+    "version": "0.5.91",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.91/AvvioOne-0.5.91.zip",
+    "length": 17550391,
+    "signature": "1ONCe0KEguvuU4b1Zq6IlEoi4WPqEeT0WjlSoF7MB3Yzn++3el12GYDbE3Xn2/E9zjzhrSgtyHCwsCkjlKJODA==",
+    "notes": "Traffic has a one-time tidy-up: 'Spot Audio Outside the Station Folder' lists every spot whose audio lives somewhere other than the station audio folder and copies them into Commercials, repointing each spot at the copy. Your original files stay where they are, anything on air is left for the next pass, and a record whose file is missing is reported rather than counted as filed."
   }
 }
