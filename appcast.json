@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.91",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.91/AvvioOne-0.5.91.zip",
-    "length": 17550391,
-    "signature": "1ONCe0KEguvuU4b1Zq6IlEoi4WPqEeT0WjlSoF7MB3Yzn++3el12GYDbE3Xn2/E9zjzhrSgtyHCwsCkjlKJODA==",
-    "notes": "Traffic has a one-time tidy-up: 'Spot Audio Outside the Station Folder' lists every spot whose audio lives somewhere other than the station audio folder and copies them into Commercials, repointing each spot at the copy. Your original files stay where they are, anything on air is left for the next pass, and a record whose file is missing is reported rather than counted as filed."
+    "version": "0.5.92",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.92/AvvioOne-0.5.92.zip",
+    "length": 17557507,
+    "signature": "9yPF0K0eO+PQj7GamdTVUZVCgKeUe3fyp9CQmRXm9glMgtwMK9ll3QR1RdgqhmiEgmm5G0qZu0SUqPQmY9MXDg==",
+    "notes": "Fixes the Segments screen: selecting a segment highlighted the row but left the editor on 'No Segment Selected', and a newly added segment never opened for editing. The pane now follows the saved list as well as the selection."
   }
 }
