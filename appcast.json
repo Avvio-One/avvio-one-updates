@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.96",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.96/AvvioOne-0.5.96.zip",
-    "length": 17954258,
-    "signature": "5E8h+fpNXD5vJt5ZmIqoG3u8Jl0vI1sZctkQj+HNpwBOeQPfti4NFMxk5CdBFLXTIibI4dxPKvzQVqvMV/8oCg==",
-    "notes": "Spots imported from your traffic system are now locked, so Fill Today and Rebuild Today schedule around them instead of replacing them \u2014 your traffic log stays on the log and Avvio's campaigns fill whatever avail time is left. Re-importing still replaces a previous import, and spots you locked yourself are untouched."
+    "version": "0.5.97",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.97/AvvioOne-0.5.97.zip",
+    "length": 18004781,
+    "signature": "eNDCP9A4lBsQpvRsE++i5SkcQwAC0T5FK+CQwqVhK712mWyr6t3+zoO8s9YSq656APhdu1KJb/cNweybfRw7AQ==",
+    "notes": "Avvio can now fetch tomorrow's commercial log from your traffic system automatically each night. Turn it on in Settings, Traffic, Traffic Log and pick a time \u2014 the next day's log is fetched and imported with no preview needed. If the log isn't published yet, or that day's log hasn't been generated, it retries for about two hours and then reports; it never writes a day it can't place in full. The result of each night's run is shown in the same pane."
   }
 }
