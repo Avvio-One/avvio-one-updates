@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.95",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.95/AvvioOne-0.5.95.zip",
-    "length": 17950928,
-    "signature": "iu0Ypbx99tG0tbc+KWKdxo6floy7hcJizugJQIvmTzq3UpedsvSQ4B9Xe1ab/3VoRaj+84BFflDk3eZqWPD2Dg==",
-    "notes": "Avvio can now import a day's commercial log from your traffic system \u2014 fetched from its online endpoint or opened from a file \u2014 and export its own in the same format. Columns are mapped by name with the aliases traffic systems use, so a Natural Log style export maps itself. Spots match on a new Cart / ISCI field, then advertiser and title. The preview shows exactly what will place, what won't and why, and nothing is written until you import. See TRAFFIC-LOG-FORMAT.md for the full specification."
+    "version": "0.5.96",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.96/AvvioOne-0.5.96.zip",
+    "length": 17954258,
+    "signature": "5E8h+fpNXD5vJt5ZmIqoG3u8Jl0vI1sZctkQj+HNpwBOeQPfti4NFMxk5CdBFLXTIibI4dxPKvzQVqvMV/8oCg==",
+    "notes": "Spots imported from your traffic system are now locked, so Fill Today and Rebuild Today schedule around them instead of replacing them \u2014 your traffic log stays on the log and Avvio's campaigns fill whatever avail time is left. Re-importing still replaces a previous import, and spots you locked yourself are untouched."
   }
 }
