@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.97",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.97/AvvioOne-0.5.97.zip",
-    "length": 18004781,
-    "signature": "eNDCP9A4lBsQpvRsE++i5SkcQwAC0T5FK+CQwqVhK712mWyr6t3+zoO8s9YSq656APhdu1KJb/cNweybfRw7AQ==",
-    "notes": "Avvio can now fetch tomorrow's commercial log from your traffic system automatically each night. Turn it on in Settings, Traffic, Traffic Log and pick a time \u2014 the next day's log is fetched and imported with no preview needed. If the log isn't published yet, or that day's log hasn't been generated, it retries for about two hours and then reports; it never writes a day it can't place in full. The result of each night's run is shown in the same pane."
+    "version": "0.5.98",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.98/AvvioOne-0.5.98.zip",
+    "length": 18019021,
+    "signature": "oetEh6sTcDW+34oQhzdPPoFmtpGp7BF7bm+CYucc10T7B4PN9LYN16TZZdyEkyfTrnpRQZXcN4KsMeWh8bhXDw==",
+    "notes": "Dropping elements into the On Air log is much more forgiving. Each row is now a drop target in full \u2014 the top half inserts above it, the bottom half below \u2014 instead of a thin band between rows that a drop had to hit exactly. The insertion line is thicker and shows which edge the element will land at."
   }
 }
