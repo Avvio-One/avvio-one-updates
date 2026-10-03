@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.98",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.98/AvvioOne-0.5.98.zip",
-    "length": 18019021,
-    "signature": "oetEh6sTcDW+34oQhzdPPoFmtpGp7BF7bm+CYucc10T7B4PN9LYN16TZZdyEkyfTrnpRQZXcN4KsMeWh8bhXDw==",
-    "notes": "Dropping elements into the On Air log is much more forgiving. Each row is now a drop target in full \u2014 the top half inserts above it, the bottom half below \u2014 instead of a thin band between rows that a drop had to hit exactly. The insertion line is thicker and shows which edge the element will land at."
+    "version": "0.5.99",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.99/AvvioOne-0.5.99.zip",
+    "length": 18026931,
+    "signature": "c2t8EZ/BSQnAp6qsik273oqvdR4WzFftG88qQxGPp/XXyruzk9tWV0++dHuRKlA+5yhDThHSd51DDNw/DwigCQ==",
+    "notes": "Editing a song's cue points now moves the segue of the element already on air, not just its next airing \u2014 use Edit Metadata as normal and save. Only the segue can move while something plays; its start and end are fixed once the audio is scheduled. A cue the playhead has already passed is left for the next airing rather than cutting the element short."
   }
 }
