@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.94",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.94/AvvioOne-0.5.94.zip",
-    "length": 17558485,
-    "signature": "TdpaeUY6hN0Okb5Izzydc3rL4WFMvjnW64N/cty2PfSdHOzcs/7AGFKwaZ5NXsbMsD23M0fRM38CGXvOXsbqCA==",
-    "notes": "Elements now always hand over at the segue cue. A song whose intro was under a second used to hold the element before it all the way to its end, so reordering the log could cost the song that was playing its segue and crossfade. Cue points are now always respected. Note that categories set to not fade at the segue (imaging, sweepers, jingles, legal IDs and promos by default) hold full volume through their tail \u2014 change that per category in Settings, Audio."
+    "version": "0.5.95",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.95/AvvioOne-0.5.95.zip",
+    "length": 17950928,
+    "signature": "iu0Ypbx99tG0tbc+KWKdxo6floy7hcJizugJQIvmTzq3UpedsvSQ4B9Xe1ab/3VoRaj+84BFflDk3eZqWPD2Dg==",
+    "notes": "Avvio can now import a day's commercial log from your traffic system \u2014 fetched from its online endpoint or opened from a file \u2014 and export its own in the same format. Columns are mapped by name with the aliases traffic systems use, so a Natural Log style export maps itself. Spots match on a new Cart / ISCI field, then advertiser and title. The preview shows exactly what will place, what won't and why, and nothing is written until you import. See TRAFFIC-LOG-FORMAT.md for the full specification."
   }
 }
