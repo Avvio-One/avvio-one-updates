@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.1",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.1/AvvioOne-0.6.1.zip",
-    "length": 18370409,
-    "signature": "nlioTvW9tgcTsVeuiUN/8FR+11le3XO6ZZwCHfAsQoUPBEueqCQWf+ztyjUSRNx68wd8TPCZvSoIBkDM7doDBw==",
-    "notes": "Fixes 'Fill Missing Attributes\u2026' on a real library.\n\nIt used to fill only what was selected \u2014 and right-clicking a song selects just that one row, so it would report '1 song selected' and fill one song. It now offers the whole library or your selection, with both counts on a control at the top, and starts on the whole library unless you deliberately picked several songs.\n\nIt also used to write nothing until the entire run finished, so stopping it or closing the sheet threw away everything it had found. Results are now saved as it goes. A stopped run keeps its work, and running it again picks up where it left off \u2014 it only ever fills blanks, so re-running is always safe."
+    "version": "0.6.2",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.2/AvvioOne-0.6.2.zip",
+    "length": 18401669,
+    "signature": "Zwhk+8Iurg82Qbqeczo/rdtKe68Q3RBveDQYWRAXiWzB4tyFN483YYxqrRnVrfsJvzBVBMJ+859UJKOLL+SBDw==",
+    "notes": "A clock slot's tempo no longer outranks your separation rules.\n\nIt used to narrow the rotation before any song was chosen, which quietly made the tempo absolute: a Fast slot drawing on three fast songs kept choosing among those three, and broke your same-song separation to do it. A tempo that can be met is still met \u2014 but when the only way to keep it would be to air a song again inside your separation window, the hour drifts off its tempo map instead.\n\nThe log report now tells the two problems apart, because the fixes are different: 'no Fast songs \u2014 24 slots asked for one' means the library has none of that tempo, while '3 Fast songs for 24 Fast slots' means the pool is too crowded. Both are reported once per rotation and tempo instead of once an hour, and where songs still have no BPM it says so \u2014 measuring them may be all it needs."
   }
 }
