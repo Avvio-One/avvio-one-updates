@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.0",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.0/AvvioOne-0.6.0.zip",
-    "length": 18354232,
-    "signature": "nOFPvyu7iIAugIJksC1PtHR4U6z0AvAsMDeYUh9HFa6UKVIOC2Vl7FA/EmQT1Xg1O7tDZbihDxR7nY8v8QvgAQ==",
-    "notes": "Songs now carry a vocal gender (Male / Female / Group) and a tempo.\n\nTempo follows a measured BPM through bands you set in Settings \u25b8 Scheduling, so one rule sorts the whole library and changing the bands re-sorts it at once \u2014 nothing is stored per song unless you set a tempo override by hand.\n\nSetting them: import reads a BPM or gender already in the file's tags; 'Fill Missing Attributes\u2026' measures the BPM from the audio and looks the artist up on MusicBrainz, filling blanks only so it is safe to re-run; the normal metadata editor edits one song; 'Edit Attributes\u2026' mass-edits a selection with every field defaulting to leave-unchanged.\n\nUsing them: Gender and Tempo are sortable columns in the Library. A clock slot can ask for a tempo, and reports it when the rotation cannot supply one. Scheduling settings can hold a gender apart so two female-vocal songs never air back to back \u2014 and when the library is too thin to keep that, the log report now says so rather than relaxing in silence.\n\nA station that does not turn any of this on behaves exactly as before."
+    "version": "0.6.1",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.1/AvvioOne-0.6.1.zip",
+    "length": 18370409,
+    "signature": "nlioTvW9tgcTsVeuiUN/8FR+11le3XO6ZZwCHfAsQoUPBEueqCQWf+ztyjUSRNx68wd8TPCZvSoIBkDM7doDBw==",
+    "notes": "Fixes 'Fill Missing Attributes\u2026' on a real library.\n\nIt used to fill only what was selected \u2014 and right-clicking a song selects just that one row, so it would report '1 song selected' and fill one song. It now offers the whole library or your selection, with both counts on a control at the top, and starts on the whole library unless you deliberately picked several songs.\n\nIt also used to write nothing until the entire run finished, so stopping it or closing the sheet threw away everything it had found. Results are now saved as it goes. A stopped run keeps its work, and running it again picks up where it left off \u2014 it only ever fills blanks, so re-running is always safe."
   }
 }
