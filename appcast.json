@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.2",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.2/AvvioOne-0.6.2.zip",
-    "length": 18401669,
-    "signature": "Zwhk+8Iurg82Qbqeczo/rdtKe68Q3RBveDQYWRAXiWzB4tyFN483YYxqrRnVrfsJvzBVBMJ+859UJKOLL+SBDw==",
-    "notes": "A clock slot's tempo no longer outranks your separation rules.\n\nIt used to narrow the rotation before any song was chosen, which quietly made the tempo absolute: a Fast slot drawing on three fast songs kept choosing among those three, and broke your same-song separation to do it. A tempo that can be met is still met \u2014 but when the only way to keep it would be to air a song again inside your separation window, the hour drifts off its tempo map instead.\n\nThe log report now tells the two problems apart, because the fixes are different: 'no Fast songs \u2014 24 slots asked for one' means the library has none of that tempo, while '3 Fast songs for 24 Fast slots' means the pool is too crowded. Both are reported once per rotation and tempo instead of once an hour, and where songs still have no BPM it says so \u2014 measuring them may be all it needs."
+    "version": "0.6.3",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.3/AvvioOne-0.6.3.zip",
+    "length": 18417899,
+    "signature": "oVwgRw5Kyt1ShNDCSjT/kr1WtRtTDKjQzKy4WFL0GkeMWoIJ69nDVH7xQu1NluKm11cBc8MWvxuWESgJ1ddRCQ==",
+    "notes": "Stops songs settling into one part of the day.\n\nSame song now reaches four days instead of eight hours. The stepper's step grows with the value \u2014 ten minutes near an hour, six hours past a day \u2014 and it reads '45 min', '3 hr 30 min', '2 days'.\n\nThe same-time-of-day window is now adjustable in Settings \u25b8 Scheduling \u25b8 Dayparting. It has always been a real setting with a 90-minute default, but its only control lived in a screen nothing navigated to, so it could never be changed.\n\nCross-day churn \u2014 keeping a song out of a clock hour it holds on a nearby day \u2014 is no longer the first rule abandoned when a rotation is tight. It now outlives same-artist separation, because two songs by one artist twenty minutes apart is a smaller sin than a song parked in the same hour every day.\n\nAnd both daypart rules now report how often they had to yield, as a proportion of the day's songs. If your station sounds the same at the same time each day, that number is the one to watch \u2014 and the rotation lines in the same report say how many songs it would take to fix."
   }
 }
