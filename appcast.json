@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.5.99",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.5.99/AvvioOne-0.5.99.zip",
-    "length": 18026931,
-    "signature": "c2t8EZ/BSQnAp6qsik273oqvdR4WzFftG88qQxGPp/XXyruzk9tWV0++dHuRKlA+5yhDThHSd51DDNw/DwigCQ==",
-    "notes": "Editing a song's cue points now moves the segue of the element already on air, not just its next airing \u2014 use Edit Metadata as normal and save. Only the segue can move while something plays; its start and end are fixed once the audio is scheduled. A cue the playhead has already passed is left for the next airing rather than cutting the element short."
+    "version": "0.6.0",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.0/AvvioOne-0.6.0.zip",
+    "length": 18354232,
+    "signature": "nOFPvyu7iIAugIJksC1PtHR4U6z0AvAsMDeYUh9HFa6UKVIOC2Vl7FA/EmQT1Xg1O7tDZbihDxR7nY8v8QvgAQ==",
+    "notes": "Songs now carry a vocal gender (Male / Female / Group) and a tempo.\n\nTempo follows a measured BPM through bands you set in Settings \u25b8 Scheduling, so one rule sorts the whole library and changing the bands re-sorts it at once \u2014 nothing is stored per song unless you set a tempo override by hand.\n\nSetting them: import reads a BPM or gender already in the file's tags; 'Fill Missing Attributes\u2026' measures the BPM from the audio and looks the artist up on MusicBrainz, filling blanks only so it is safe to re-run; the normal metadata editor edits one song; 'Edit Attributes\u2026' mass-edits a selection with every field defaulting to leave-unchanged.\n\nUsing them: Gender and Tempo are sortable columns in the Library. A clock slot can ask for a tempo, and reports it when the rotation cannot supply one. Scheduling settings can hold a gender apart so two female-vocal songs never air back to back \u2014 and when the library is too thin to keep that, the log report now says so rather than relaxing in silence.\n\nA station that does not turn any of this on behaves exactly as before."
   }
 }
