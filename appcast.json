@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.3",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.3/AvvioOne-0.6.3.zip",
-    "length": 18417899,
-    "signature": "oVwgRw5Kyt1ShNDCSjT/kr1WtRtTDKjQzKy4WFL0GkeMWoIJ69nDVH7xQu1NluKm11cBc8MWvxuWESgJ1ddRCQ==",
-    "notes": "Stops songs settling into one part of the day.\n\nSame song now reaches four days instead of eight hours. The stepper's step grows with the value \u2014 ten minutes near an hour, six hours past a day \u2014 and it reads '45 min', '3 hr 30 min', '2 days'.\n\nThe same-time-of-day window is now adjustable in Settings \u25b8 Scheduling \u25b8 Dayparting. It has always been a real setting with a 90-minute default, but its only control lived in a screen nothing navigated to, so it could never be changed.\n\nCross-day churn \u2014 keeping a song out of a clock hour it holds on a nearby day \u2014 is no longer the first rule abandoned when a rotation is tight. It now outlives same-artist separation, because two songs by one artist twenty minutes apart is a smaller sin than a song parked in the same hour every day.\n\nAnd both daypart rules now report how often they had to yield, as a proportion of the day's songs. If your station sounds the same at the same time each day, that number is the one to watch \u2014 and the rotation lines in the same report say how many songs it would take to fix."
+    "version": "0.6.4",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.4/AvvioOne-0.6.4.zip",
+    "length": 18442173,
+    "signature": "JG+3bFo2taSvMiwkapDqxLktsNqmZSJrzq8dup7QxFauwKwkrbbHMHPGHSirvHsaUNnKIHNXrle+hoNZ4G7/Bw==",
+    "notes": "The assistant can now see and set the music attributes.\n\nAsk it for a song's vocal gender, BPM or tempo and it can answer \u2014 library searches now show them. Ask it to set one and it prepares a card the way it does for any other change: 'set the vocal gender on everything by Carly Simon to female', 'clear the tempo override on these three so the BPM decides again'. A field you don't mention is left alone, so a request about gender can never wipe a BPM, and anything in the selection that isn't music is skipped and reported rather than failing the whole thing.\n\nClocks too: it can put a tempo on a music slot when creating or editing a clock, and it reads existing slot tempos back.\n\nIt also now knows the rule that matters \u2014 tempo follows the measured BPM through your bands, so a wrong BPM is the thing to correct; the override is only for a song whose number is right and whose feel is wrong.\n\nAlso fixed: a gap in the assistant's permission gate meant a newly added proposal tool could be offered to read-only operators."
   }
 }
