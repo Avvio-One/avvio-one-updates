@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.8",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.8/AvvioOne-0.6.8.zip",
-    "length": 18479583,
-    "signature": "8dDGleF4sZkhiSvpV+8kbwMplHpCNaEr/PXS8G8Rd1xvHJL93ftsHgbRNsXigCk0ft/9eQri8vVDzK3bd60cDw==",
-    "notes": "Logs now build in two phases: stop sets first, then music.\n\nPress Regenerate and you will see the break skeleton appear first \u2014 stop sets, imaging, voice tracks and segments, with no music at all. The commercial log fills those breaks. Only then is the music scheduled, into the time that is actually left.\n\nThis is what you have been asking for, and it removes the whole class of problem rather than correcting for it afterwards. Music is never scheduled against a break length that turns out to be wrong, so songs are not placed and then thrown away \u2014 they stay in rotation.\n\nThe music pass no longer depends on the commercial fill succeeding. If the fill fails, the hours are sized against unfilled breaks and the report says so plainly, rather than the music silently staying as first laid out.\n\nGenerating is also quicker, because the first pass no longer picks music it is about to discard."
+    "version": "0.6.9",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.9/AvvioOne-0.6.9.zip",
+    "length": 18483177,
+    "signature": "5ebuQ0nOGLK4A1ELfjJLRqQxAVxsclEuXiwRbrghSPu9uvBcfztMJZoEwfc5/RQYmUTHqSfuQbXz21hHXqcwBA==",
+    "notes": "The log report now says what the music was fitted around.\n\nIf you see 'Music fitted around 48 breaks holding 1:36:00', the hours were built around the commercials actually in them and the generation worked.\n\nIf you see 'The music was fitted around 48 EMPTY breaks', the commercials arrived after the music was scheduled \u2014 so every hour was sized as if the station had none, and whatever lands in those breaks afterwards pushes the hour past its top. That is the fault, named outright, instead of something you can only infer from a day totalling more than 24 hours."
   }
 }
