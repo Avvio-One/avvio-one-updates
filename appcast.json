@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.6",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.6/AvvioOne-0.6.6.zip",
-    "length": 18479082,
-    "signature": "xaivuEYzyL+LGkYV2LAAo/CKhH6X4tf/8BBa/U9tCosx3FouCquIjMLtD4QWY42Q5ZaBWzomp/Oug1QdnoXmDg==",
-    "notes": "Pause any element to keep it out of the log without moving it.\n\nRight-click in the Library and choose Pause (or use the switch in Edit Metadata). A paused element keeps its category, its subcategory and its history \u2014 the scheduler simply won't pick it. Resume puts it straight back; there is no re-filing to undo. The Library shows a PAUSED pill on the row, and the right-click menu offers Resume once everything you have selected is paused.\n\nThis replaces the usual workaround of shunting something into a junk category to stop it airing, which loses its filing and makes your rotation reports wrong. Paused songs no longer count toward a rotation's pool either, so the separation arithmetic in the log report tells the truth about what can actually be picked.\n\nPausing is not the same as disabling: anything already sitting in a log, or dragged in by hand, still airs. It means 'stop choosing this', not 'never play it'."
+    "version": "0.6.7",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.7/AvvioOne-0.6.7.zip",
+    "length": 18482874,
+    "signature": "JsAEByWZdF1JaeFKUQo9YUVj18aI3aAs35HHvxrSHMz7xXFRym6gHTrA8kjuifVjSlxqT4jO1cuoPUVfrjJ9Ag==",
+    "notes": "Diagnostic: the log report now says when the music was never fitted to your real break lengths.\n\nSince 0.6.5 a full regenerate re-lays the music once the commercial log is in, so hours are sized by the spots actually in each break rather than the length you configured. If the commercial log doesn't complete, that second pass is skipped \u2014 sizing hours against breaks that were never filled would be worse \u2014 but until now it was skipped silently, which looks exactly like the fix not working.\n\nThe report now says so, names the reason, and tells you to fix the commercial problem and regenerate."
   }
 }
