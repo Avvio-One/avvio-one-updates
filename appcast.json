@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.4",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.4/AvvioOne-0.6.4.zip",
-    "length": 18442173,
-    "signature": "JG+3bFo2taSvMiwkapDqxLktsNqmZSJrzq8dup7QxFauwKwkrbbHMHPGHSirvHsaUNnKIHNXrle+hoNZ4G7/Bw==",
-    "notes": "The assistant can now see and set the music attributes.\n\nAsk it for a song's vocal gender, BPM or tempo and it can answer \u2014 library searches now show them. Ask it to set one and it prepares a card the way it does for any other change: 'set the vocal gender on everything by Carly Simon to female', 'clear the tempo override on these three so the BPM decides again'. A field you don't mention is left alone, so a request about gender can never wipe a BPM, and anything in the selection that isn't music is skipped and reported rather than failing the whole thing.\n\nClocks too: it can put a tempo on a music slot when creating or editing a clock, and it reads existing slot tempos back.\n\nIt also now knows the rule that matters \u2014 tempo follows the measured BPM through your bands, so a wrong BPM is the thing to correct; the override is only for a song whose number is right and whose feel is wrong.\n\nAlso fixed: a gap in the assistant's permission gate meant a newly added proposal tool could be offered to read-only operators."
+    "version": "0.6.5",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.5/AvvioOne-0.6.5.zip",
+    "length": 18446468,
+    "signature": "1fIuR5pcWa0guNoOw6t5cxfgAS+yJSdpx9mxmu0w4aaasGnpCqqmySuTA4WO4IbLQ3OooqfvId56XyT7JB7NAw==",
+    "notes": "Music is now laid against your breaks' REAL lengths, not the lengths you set.\n\nThe stop set length you configure is a limit for traffic to fill against. It was also being used to size the hour, which is wrong in both directions. With a 3:00 stop set holding 2:00 of spots, every hour was handing back a minute of airtime it could have given to music. With one that overruns, the hour ran long \u2014 and that overrun is what gets shaved minutes before the top of the hour, throwing away songs the scheduler had already counted as played when it built the rest of the day. Those songs were then held back for the rest of the day, or with a multi-day same-song setting for days, without ever going to air.\n\nA full regenerate now re-picks the music once the commercial log is in, when each break's length is the sum of the spots actually in it. Spare break time goes to music, and music that won't fit is never scheduled at all \u2014 so it stays in rotation instead of being scheduled and binned.\n\nBuilding a log now takes about twice as long, because the day is laid out twice. If the commercial fill fails, the second pass is skipped rather than sizing your hours as though the station had no commercials."
   }
 }
