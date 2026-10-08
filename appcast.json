@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.11",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.11/AvvioOne-0.6.11.zip",
-    "length": 18518814,
-    "signature": "/K1j+BNGCXUt/N0CYOHA7e0k6VfpMgWku0RZwp8p8e7NiggGqohq8mWTsK6DhPNNOUHGtEeDqknf222/J+AmAg==",
-    "notes": "Generating a log now shows what it is actually doing.\n\nInstead of a single 'Hour N of 24' covering three different passes, you get the passes themselves \u2014 Laying the breaks, Scheduling commercials, Scheduling music \u2014 each filling as it runs and ticking green when it finishes, with the hour it is working on.\n\nThe list matches the run: a music-only regenerate shows one step, a full regenerate shows three. A step that run doesn't perform is never ticked.\n\nThis is why a full regenerate looked like it scheduled music before the commercials. It doesn't, and never did \u2014 the progress just couldn't tell you which pass you were watching."
+    "version": "0.6.12",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.12/AvvioOne-0.6.12.zip",
+    "length": 18589652,
+    "signature": "qieEP9r2XhipKhPsjcvpFKBkJMgkiP6TPLzPRm5BdhyNLb0xMSc7/xMWEfU5pjyC2SbJC+wP/DvWZhLLl3tJCQ==",
+    "notes": "The segment editor now shows a timeline you can drag.\n\nA BED lane and a VOICE lane over a ruler, the way AvvioCast does it. Drag the voice to set when it comes in over the bed; drag the handle on the bed's right edge to set where the bed stops. The caption tells you how long the segment runs and when the next element starts.\n\nWhat you are dragging are the bed's own Talk Over and end cues \u2014 the same ones the player reads on air \u2014 so what you see in the editor is what you will hear, and Preview Segment needs no extra step to agree with it. Because they belong to the bed, moving them moves that bed anywhere else it is used; the editor says so underneath.\n\nIt won't let you make a segment that sounds broken: the voice can't start before the bed or after it has stopped (a finished bed can't duck, so the voice would open cold over silence), and the bed can't be trimmed back past its own duck point.\n\nA voiceover is fetched by name at air time, so until it has been fetched its lane is drawn open-ended rather than guessing a length. Previewing the segment teaches it the real one."
   }
 }
