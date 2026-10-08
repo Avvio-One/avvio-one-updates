@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.12",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.12/AvvioOne-0.6.12.zip",
-    "length": 18589652,
-    "signature": "qieEP9r2XhipKhPsjcvpFKBkJMgkiP6TPLzPRm5BdhyNLb0xMSc7/xMWEfU5pjyC2SbJC+wP/DvWZhLLl3tJCQ==",
-    "notes": "The segment editor now shows a timeline you can drag.\n\nA BED lane and a VOICE lane over a ruler, the way AvvioCast does it. Drag the voice to set when it comes in over the bed; drag the handle on the bed's right edge to set where the bed stops. The caption tells you how long the segment runs and when the next element starts.\n\nWhat you are dragging are the bed's own Talk Over and end cues \u2014 the same ones the player reads on air \u2014 so what you see in the editor is what you will hear, and Preview Segment needs no extra step to agree with it. Because they belong to the bed, moving them moves that bed anywhere else it is used; the editor says so underneath.\n\nIt won't let you make a segment that sounds broken: the voice can't start before the bed or after it has stopped (a finished bed can't duck, so the voice would open cold over silence), and the bed can't be trimmed back past its own duck point.\n\nA voiceover is fetched by name at air time, so until it has been fetched its lane is drawn open-ended rather than guessing a length. Previewing the segment teaches it the real one."
+    "version": "0.6.13",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.13/AvvioOne-0.6.13.zip",
+    "length": 18616071,
+    "signature": "INKDCGIo7uT3sldShE+kiTrn0yGhYleF3CwMGlYyofBcXwGcYxpSqTnG6zamMRfCWZmfcItXSyb6ADV15WLBBg==",
+    "notes": "The segment editor gets the duck and bed-tail sliders.\n\nDuck the bed to \u2014 how far the bed dips while the voice reads, in dB. Leave it alone and the bed follows your station's Audio setting, which is what most should do; set it for the one bed that sits too loud or too shy under its particular read.\n\nBed after the voice \u2014 how long the bed carries on once the read finishes. It comes back up to full and fades across that time under whatever follows, instead of being cut the moment the voice stops. Left at 0 it behaves exactly as before, which is what every bed you already have will do.\n\nBoth belong to the bed itself, alongside its Talk Over and end cues, so they apply wherever that bed is used and the player reads them straight off it on air \u2014 what you set is what you will hear, and Preview Segment plays it the same way, tail and all."
   }
 }
