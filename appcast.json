@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.9",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.9/AvvioOne-0.6.9.zip",
-    "length": 18483177,
-    "signature": "5ebuQ0nOGLK4A1ELfjJLRqQxAVxsclEuXiwRbrghSPu9uvBcfztMJZoEwfc5/RQYmUTHqSfuQbXz21hHXqcwBA==",
-    "notes": "The log report now says what the music was fitted around.\n\nIf you see 'Music fitted around 48 breaks holding 1:36:00', the hours were built around the commercials actually in them and the generation worked.\n\nIf you see 'The music was fitted around 48 EMPTY breaks', the commercials arrived after the music was scheduled \u2014 so every hour was sized as if the station had none, and whatever lands in those breaks afterwards pushes the hour past its top. That is the fault, named outright, instead of something you can only infer from a day totalling more than 24 hours."
+    "version": "0.6.10",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.10/AvvioOne-0.6.10.zip",
+    "length": 18487023,
+    "signature": "2PCteRXqJdemp1jqu9qeMnoSJzRto02ovkQwP4ie9Zc1cSS6gfhl3C4SureLXkQYdkXfio9r7vpb2SI+MidAAQ==",
+    "notes": "Fixes elements appearing after the top of the hour, ahead of the hour's liner.\n\nWhen commercials land in a break, every element behind that break shifts later \u2014 so a song that sat comfortably inside its hour can end up starting after the top. Nothing re-checked the hour after the spots arrived, which is why you were seeing a sweeper and a song at 1:03 and 1:04 sitting in front of the 1:00 liner.\n\nThe hour is now re-checked whenever the commercial log is built, so anything pushed past the top is removed. It is safe to run at any time: a day that already lands on time is left untouched.\n\nThis was the piece your observation pinned down \u2014 that the adbreaks are the last thing to load during generation."
   }
 }
