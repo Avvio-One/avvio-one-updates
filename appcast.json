@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.10",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.10/AvvioOne-0.6.10.zip",
-    "length": 18487023,
-    "signature": "2PCteRXqJdemp1jqu9qeMnoSJzRto02ovkQwP4ie9Zc1cSS6gfhl3C4SureLXkQYdkXfio9r7vpb2SI+MidAAQ==",
-    "notes": "Fixes elements appearing after the top of the hour, ahead of the hour's liner.\n\nWhen commercials land in a break, every element behind that break shifts later \u2014 so a song that sat comfortably inside its hour can end up starting after the top. Nothing re-checked the hour after the spots arrived, which is why you were seeing a sweeper and a song at 1:03 and 1:04 sitting in front of the 1:00 liner.\n\nThe hour is now re-checked whenever the commercial log is built, so anything pushed past the top is removed. It is safe to run at any time: a day that already lands on time is left untouched.\n\nThis was the piece your observation pinned down \u2014 that the adbreaks are the last thing to load during generation."
+    "version": "0.6.11",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.11/AvvioOne-0.6.11.zip",
+    "length": 18518814,
+    "signature": "/K1j+BNGCXUt/N0CYOHA7e0k6VfpMgWku0RZwp8p8e7NiggGqohq8mWTsK6DhPNNOUHGtEeDqknf222/J+AmAg==",
+    "notes": "Generating a log now shows what it is actually doing.\n\nInstead of a single 'Hour N of 24' covering three different passes, you get the passes themselves \u2014 Laying the breaks, Scheduling commercials, Scheduling music \u2014 each filling as it runs and ticking green when it finishes, with the hour it is working on.\n\nThe list matches the run: a music-only regenerate shows one step, a full regenerate shows three. A step that run doesn't perform is never ticked.\n\nThis is why a full regenerate looked like it scheduled music before the commercials. It doesn't, and never did \u2014 the progress just couldn't tell you which pass you were watching."
   }
 }
