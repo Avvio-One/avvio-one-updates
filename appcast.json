@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.21",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.21/AvvioOne-0.6.21.zip",
-    "length": 18963850,
-    "signature": "ewafmQhM59dDod8yzJDeIhpgeyc8L8sRMjg5uqFyHyubCIIeyI3wbpY6+zZ3JV+XL0lDOboWyY+NnMGcaUEYCQ==",
-    "notes": "The assistant can set a clock slot's tempo; a clock edit now sees a stop set's full settings instead of resetting it to three minutes."
+    "version": "0.6.22",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.22/AvvioOne-0.6.22.zip",
+    "length": 18980456,
+    "signature": "7xPr0fyU7ZkZjXKHH6l26i3qquLb9BkBWVKn2UxEBT/8TUIeixwm8G+Qgt8rI2gIbq/qzTmExDJDMasaZ6DFAg==",
+    "notes": "Log report: tempo lines now name the rule that took the tempo, count failures clearly, and only warn on a real shortage."
   }
 }
