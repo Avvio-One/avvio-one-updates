@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.16",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.16/AvvioOne-0.6.16.zip",
-    "length": 18596109,
-    "signature": "Qs60CL49x/Be3774+7uPP5JWV/dZfTbpoKaFq+uD0kgeoZZGtHC8lVhNd9ZwWHdsr6icfXsDDz2fLIO0IdCVAg==",
-    "notes": "Scheduler \u25b8 Scheduler Settings\u2026 has been removed.\n\nIt opened an older pane with its own copy of Same song and Same artist \u2014 the same settings Settings \u25b8 Scheduling already holds, so there were two places to change one number. Everything now lives in Settings \u25b8 Scheduling, with separation, dayparting, tempo bands and vocal gender together."
+    "version": "0.6.17",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.17/AvvioOne-0.6.17.zip",
+    "length": 18913586,
+    "signature": "49T15xNdSfBeVs8rHGbGk6WGarvhQLUPwq2okemewQ5tw3OqporSqx5JisX9kwEzryijcVR/wvJDZ1wSIjdKCw==",
+    "notes": "Insert Commercial into a break from the log screens, plus Reports \u25b8 Traffic: Commercial Schedule, Advertiser Schedule and Break Inventory."
   }
 }
