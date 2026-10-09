@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.14",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.14/AvvioOne-0.6.14.zip",
-    "length": 18619802,
-    "signature": "NqZkwp+/MYPiyF7CrzALEnhLxNkTZ8lAQVyT5DFR6oJHWiAaxGPgk4I/vdFPuIKNHyE4a56oQ2B4MOBIZBkIDA==",
-    "notes": "Songs now move further day to day.\n\nSettings \u25b8 Scheduling \u25b8 Dayparting has a new 'Move it day to day by at least', set to 5 hours. A song that aired at 6am can next air before 1am or from noon, instead of merely avoiding 6am itself \u2014 which it could satisfy by shifting an hour and still landing inside the same show.\n\nThis is for the listener who catches the same programme every day. It looks three days either side, and it understands that the day is a circle: 23:00 and 01:00 are two hours apart, so the overnight is covered too.\n\nIt is a preference, not a separation rule: when a rotation cannot satisfy everything it gives way before a song is allowed to repeat, and the log report counts how often it had to. If that count is high, the rotation is too thin to hold five hours and the report says how many songs it would take.\n\nSet it to 0 for the old behaviour \u2014 the same clock hour and nothing else."
+    "version": "0.6.15",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.15/AvvioOne-0.6.15.zip",
+    "length": 18611648,
+    "signature": "0XUMtvNQGCpH25mgXgtACgAXEVVpz1qHTf5a99ir1mcAApuMHkabuJChCDs4n07++iCGZWuOjoZp6IpenA+FCg==",
+    "notes": "Retires 'Keep away from the same time of day'.\n\nIt did the same job as the day-to-day hour spacing added in 0.6.14, and less well: anything within 90 minutes is within 5 hours, so it could never do anything on its own unless you set the spacing to 0 or 1. Dayparting is now one control instead of two.\n\nThe spacing rule looks three days either side rather than about one, it sees days you have already built, and it holds on longer when a rotation is tight. Set it to 0 if you want the old same-clock-hour behaviour.\n\nScheduler \u25b8 Scheduler Settings\u2026 no longer carries its own copy of the setting; it points at Settings \u25b8 Scheduling, where dayparting lives."
   }
 }
