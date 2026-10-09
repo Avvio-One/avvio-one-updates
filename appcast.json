@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.15",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.15/AvvioOne-0.6.15.zip",
-    "length": 18611648,
-    "signature": "0XUMtvNQGCpH25mgXgtACgAXEVVpz1qHTf5a99ir1mcAApuMHkabuJChCDs4n07++iCGZWuOjoZp6IpenA+FCg==",
-    "notes": "Retires 'Keep away from the same time of day'.\n\nIt did the same job as the day-to-day hour spacing added in 0.6.14, and less well: anything within 90 minutes is within 5 hours, so it could never do anything on its own unless you set the spacing to 0 or 1. Dayparting is now one control instead of two.\n\nThe spacing rule looks three days either side rather than about one, it sees days you have already built, and it holds on longer when a rotation is tight. Set it to 0 if you want the old same-clock-hour behaviour.\n\nScheduler \u25b8 Scheduler Settings\u2026 no longer carries its own copy of the setting; it points at Settings \u25b8 Scheduling, where dayparting lives."
+    "version": "0.6.16",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.16/AvvioOne-0.6.16.zip",
+    "length": 18596109,
+    "signature": "Qs60CL49x/Be3774+7uPP5JWV/dZfTbpoKaFq+uD0kgeoZZGtHC8lVhNd9ZwWHdsr6icfXsDDz2fLIO0IdCVAg==",
+    "notes": "Scheduler \u25b8 Scheduler Settings\u2026 has been removed.\n\nIt opened an older pane with its own copy of Same song and Same artist \u2014 the same settings Settings \u25b8 Scheduling already holds, so there were two places to change one number. Everything now lives in Settings \u25b8 Scheduling, with separation, dayparting, tempo bands and vocal gender together."
   }
 }
