@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.20",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.20/AvvioOne-0.6.20.zip",
-    "length": 18954870,
-    "signature": "0qKfOuiBS87yO7WfcA7Ynzr5KV4MYUwmvjMt+U0d/QeaYcB/AzkHhARmIvIeuEk9mP+nvSum2qjT+VyuaRl+Cg==",
-    "notes": "The Logs screen can export a whole day to CSV \u2014 every element, in log order."
+    "version": "0.6.21",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.21/AvvioOne-0.6.21.zip",
+    "length": 18963850,
+    "signature": "ewafmQhM59dDod8yzJDeIhpgeyc8L8sRMjg5uqFyHyubCIIeyI3wbpY6+zZ3JV+XL0lDOboWyY+NnMGcaUEYCQ==",
+    "notes": "The assistant can set a clock slot's tempo; a clock edit now sees a stop set's full settings instead of resetting it to three minutes."
   }
 }
