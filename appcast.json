@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.18",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.18/AvvioOne-0.6.18.zip",
-    "length": 18929352,
-    "signature": "H7KYzFVbjCAGA9xbnc/eaJgM/FYhIzqOeIvG35hmZlXNGmMuQGQac73HgBwn8wLRcxakp7w41f01y+8xz0N+Aw==",
-    "notes": "The Traffic role can now open Reports for the Commercial Schedule, Advertiser Schedule and Break Inventory."
+    "version": "0.6.19",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.19/AvvioOne-0.6.19.zip",
+    "length": 18942625,
+    "signature": "loblKnkRUXnrssOnUtR5UclO1pi82JGWJiwd29vLL1+QaHkQLjVJPDCskYa3oWZFhCHXCGzb7vzAKq8Yzu7bCA==",
+    "notes": "Insert Commercial now lists spots that have no audio yet, greyed out and labelled, instead of hiding them."
   }
 }
