@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.17",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.17/AvvioOne-0.6.17.zip",
-    "length": 18913586,
-    "signature": "49T15xNdSfBeVs8rHGbGk6WGarvhQLUPwq2okemewQ5tw3OqporSqx5JisX9kwEzryijcVR/wvJDZ1wSIjdKCw==",
-    "notes": "Insert Commercial into a break from the log screens, plus Reports \u25b8 Traffic: Commercial Schedule, Advertiser Schedule and Break Inventory."
+    "version": "0.6.18",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.18/AvvioOne-0.6.18.zip",
+    "length": 18929352,
+    "signature": "H7KYzFVbjCAGA9xbnc/eaJgM/FYhIzqOeIvG35hmZlXNGmMuQGQac73HgBwn8wLRcxakp7w41f01y+8xz0N+Aw==",
+    "notes": "The Traffic role can now open Reports for the Commercial Schedule, Advertiser Schedule and Break Inventory."
   }
 }
