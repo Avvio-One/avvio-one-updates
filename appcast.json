@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.22",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.22/AvvioOne-0.6.22.zip",
-    "length": 18980456,
-    "signature": "7xPr0fyU7ZkZjXKHH6l26i3qquLb9BkBWVKn2UxEBT/8TUIeixwm8G+Qgt8rI2gIbq/qzTmExDJDMasaZ6DFAg==",
-    "notes": "Log report: tempo lines now name the rule that took the tempo, count failures clearly, and only warn on a real shortage."
+    "version": "0.6.23",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.23/AvvioOne-0.6.23.zip",
+    "length": 18992427,
+    "signature": "KRS1jfAdFu79BRp7xXQaePo0UXTIRsYuKeJRxvVsL9qrB9ZIFZPox2l6oTg/JBy9ak3lGPOKerv0FPTeRFLzBw==",
+    "notes": "Station import now matches a clock by name as well as id, so a tempo map reaches the other Mac, and names what it left alone."
   }
 }
