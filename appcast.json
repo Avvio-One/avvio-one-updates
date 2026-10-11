@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.24",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.24/AvvioOne-0.6.24.zip",
-    "length": 19031126,
-    "signature": "1L6hF8ZS4slCB3IKWLLz+HqJ8R+h8Ea0C1IO//lYkXgaPLEc7QoSu1014Db1p0BMPM4PJpyoBJ63vTeWVM8kDg==",
-    "notes": "The Logs hour strip is now coloured by the clock that built each hour, with the clock named on hover and above the entries."
+    "version": "0.6.25",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.25/AvvioOne-0.6.25.zip",
+    "length": 19048674,
+    "signature": "u1RJ+muSgh+5iuThsuNqZ7OtL7YmlxWxES/+aTKe4FTG0WCWLyQ9dhkZffEi7//53HL88PqHgsxQzlc4lcTWDA==",
+    "notes": "Traffic \u25b8 Campaigns: Duplicate opens a full copy of a campaign, saved only when you press Save."
   }
 }
