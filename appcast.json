@@ -1,9 +1,9 @@
 {
   "latest": {
-    "version": "0.6.25",
-    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.25/AvvioOne-0.6.25.zip",
-    "length": 19048674,
-    "signature": "u1RJ+muSgh+5iuThsuNqZ7OtL7YmlxWxES/+aTKe4FTG0WCWLyQ9dhkZffEi7//53HL88PqHgsxQzlc4lcTWDA==",
-    "notes": "Traffic \u25b8 Campaigns: Duplicate opens a full copy of a campaign, saved only when you press Save."
+    "version": "0.6.26",
+    "url": "https://github.com/Avvio-One/avvio-one-updates/releases/download/v0.6.26/AvvioOne-0.6.26.zip",
+    "length": 19055446,
+    "signature": "LBEbGHmMg2WGlBgeinW0g9lr7p7+r574H+UKULxvGaU16u1esrc0bzJI3LJPLK0MFsVS5rr+6kehOwEg38pFDw==",
+    "notes": "Traffic \u25b8 Commercials: Duplicate opens a copy of a spot (same audio, blank cart number), and a traffic log no longer guesses between two spots sharing a cart."
   }
 }
